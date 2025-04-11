@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riken Sonani - All Projects</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -17,7 +20,9 @@
                     <img src="images/Profile.jpg" alt="Riken Sonani">
                 </div>
                 <div class="logo">
-                    <h1>Riken<span>Sonani</span></h1>
+                    <a href="index.html">
+                        <h1>Riken <span>Sonani</span></h1>
+                    </a>
                 </div>
             </div>
             <nav>
@@ -44,7 +49,7 @@
                 <h2>All Projects</h2>
                 <div class="underline"></div>
             </div>
-            
+
             <div class="project-filters">
                 <button class="filter-btn active" data-filter="all">
                     <i class="fas fa-th-large"></i> All Projects
@@ -79,12 +84,18 @@
                 <button class="filter-btn" data-filter="arvr">
                     <i class="fas fa-vr-cardboard"></i> AR/VR
                 </button>
+                <button class="filter-btn" data-filter="sports">
+                    <i class="fas fa-table-tennis-paddle-ball"></i> Sports
+                </button>
+                <button class="filter-btn" data-filter="shooter">
+                    <i class="fa-solid fa-gun"></i> Shooter
+                </button>
             </div>
 
             <div class="projects-grid">
                 <!-- Project 1: Poker PayDay -->
-                <div class="project-item casino card">
-                    <div class="project-media" >
+                <div class="project-item casino card multiplayer">
+                    <div class="project-media">
                         <div class="project-video">
                             <video autoplay loop muted playsinline preload="auto" poster="images/Project1.png">
                                 <source src="videos/Project1.mp4" type="video/mp4">
@@ -112,7 +123,12 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A premium roguelike poker game that combines traditional poker hands with strategic enhancements and special mechanics layered on top. Each run is procedurally generated with unlockable content and evolving meta-progression systems.</p>
+                        <p class="project-description">Poker Pay Day is a fast-paced, multiplayer card battle game where
+                            players strategically select the highest-scoring pairs
+                            to outplay opponents. With real-time matchmaking, exciting grand reward mechanics, and clean
+                            card-based gameplay, this
+                            project showcases my ability to blend competitive multiplayer systems with classic
+                            poker-inspired logic.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -161,7 +177,9 @@
                                 <span class="status-live">Live</span>
                             </div>
                         </div>
-                        <p class="project-description">A physics-based puzzle game where players draw lines or shapes to protect dogs from threats. Features hundreds of levels with increasing difficulty, requiring creative thinking and precision.</p>
+                        <p class="project-description">Draw a single line to protect the dog from angry bees! Use your
+                            creativity and timing to shield the dog and survive each level and Use your brain power and
+                            logic to pass the level.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -170,7 +188,8 @@
                             <span class="tech-tag">Hypercasual</span>
                         </div>
                         <div class="project-actions">
-                            <a href="https://play.google.com/store/apps/details?id=com.superstarstudio.savethedog" class="store-btn playstore-btn" target="_blank">
+                            <a href="https://play.google.com/store/apps/details?id=com.superstarstudio.savethedog"
+                                class="store-btn playstore-btn" target="_blank">
                                 <i class="fab fa-google-play"></i> Play Store
                             </a>
                             <a href="#" class="store-btn appstore-btn disabled">
@@ -182,7 +201,7 @@
 
                 <!-- Project 3: WordBlox - Word Puzzles -->
                 <div class="project-item puzzle casual educational">
-                    <div class="project-media" >
+                    <div class="project-media">
                         <div class="project-video">
                             <video autoplay loop muted playsinline preload="auto" poster="images/Project3.png">
                                 <source src="videos/Project3.mp4" type="video/mp4">
@@ -210,7 +229,10 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">A fresh twist on word puzzles combining classic word search, crossword, and trivia gameplay. Solve puzzles using diverse clue formats like emojis, photos, and riddles for varied challenge styles.</p>
+                        <p class="project-description">Word Blox — a fun and brain-boosting puzzle game where players
+                            connect scattered letter blocks to form meaningful words.
+                            Simple to play, yet tricky to master, it’s the perfect blend of vocabulary training and
+                            logical thinking.</p>
                         <!-- 
                         <div class="project-features">
                             <h4>Key Features:</h4>
@@ -231,10 +253,12 @@
                             <span class="tech-tag">Merge-Puzzle</span>
                         </div>
                         <div class="project-actions">
-                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.wordblox" class="store-btn playstore-btn" target="_blank">
+                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.wordblox"
+                                class="store-btn playstore-btn" target="_blank">
                                 <i class="fab fa-google-play"></i> Play Store
                             </a>
-                            <a href="https://apps.apple.com/in/app/wordblox-word-puzzles/id1569467386" class="store-btn appstore-btn" target="_blank">
+                            <a href="https://apps.apple.com/in/app/wordblox-word-puzzles/id1569467386"
+                                class="store-btn appstore-btn" target="_blank">
                                 <i class="fab fa-app-store-ios"></i> App Store
                             </a>
                         </div>
@@ -275,7 +299,9 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A realistic pool game with intuitive and precise cue controls and real-time physics. Compete in 1v1 matches against other players, earn rewards, and climb the leaderboards.</p>
+                        <p class="project-description">A realistic pool game with intuitive and precise cue controls and
+                            real-time physics. Compete in 1v1 matches against other players, earn rewards, and climb the
+                            leaderboards.</p>
                         <!-- 
                         <div class="project-features">
                             <h4>Key Features:</h4>
@@ -337,10 +363,12 @@
                             </div>
                             <div class="detail-row">
                                 <span class="detail-label">Status:</span>
-                                <span class="status-live">Live</span>
+                                <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A physics-based fighting game where pigs battle each other in fun, chaotic arenas. Features both online and offline multiplayer modes with five unique pig characters, each with different abilities.</p>
+                        <p class="project-description">A physics-based fighting game where pigs battle each other in
+                            fun, chaotic arenas. Features both online and offline multiplayer modes with five unique pig
+                            characters, each with different abilities.</p>
                         <!-- 
                         <div class="project-features">
                             <h4>Key Features:</h4>
@@ -405,7 +433,11 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">An engaging twist on classic block puzzle games featuring 14 levels and over 1,000 puzzles. Play at your own pace without the pressure of timers or move limits in this relaxing puzzle experience.</p>
+                        <p class="project-description">A relaxing yet challenging block puzzle game where players fit
+                            hexagon pieces into a grid to complete shapes. With
+                            smooth drag-and-drop mechanics and hundreds of brain-teasing levels, Hexa Puzzle is perfect
+                            for players who love
+                            geometric logic and satisfying gameplay.</p>
                         <!-- 
                         <div class="project-features">
                             <h4>Key Features:</h4>
@@ -426,10 +458,12 @@
                             <span class="tech-tag">Block Puzzle</span>
                         </div>
                         <div class="project-actions">
-                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.hexabuzzle" class="store-btn playstore-btn" target="_blank">
+                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.hexabuzzle"
+                                class="store-btn playstore-btn" target="_blank">
                                 <i class="fab fa-google-play"></i> Play Store
                             </a>
-                            <a href="https://apps.apple.com/in/app/hexa-buzzle/id1369821512" class="store-btn appstore-btn" target="_blank">
+                            <a href="https://apps.apple.com/in/app/hexa-buzzle/id1369821512"
+                                class="store-btn appstore-btn" target="_blank">
                                 <i class="fab fa-app-store-ios"></i> App Store
                             </a>
                         </div>
@@ -467,10 +501,12 @@
                             </div>
                             <div class="detail-row">
                                 <span class="detail-label">Status:</span>
-                                <span class="status-live">Live</span>
+                                <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A strategic merge game where players combine identical warriors to evolve them into stronger units. Place your units, merge them smartly, and watch them battle automatically in this idle strategy game.</p>
+                        <p class="project-description">A strategic merge game where players combine identical warriors
+                            to evolve them into stronger units. Place your units, merge them smartly, and watch them
+                            battle automatically in this idle strategy game.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -523,7 +559,9 @@
                                 <span class="status-live">Live</span>
                             </div>
                         </div>
-                        <p class="project-description">An educational game designed for children aged 4-10 to learn basic math operations through fun-based mini-games. Features colorful graphics, audio feedback, and progressive difficulty levels.</p>
+                        <p class="project-description">An educational game designed for children aged 4-10 to learn
+                            basic math operations through fun-based mini-games. Features colorful graphics, audio
+                            feedback, and progressive difficulty levels.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -532,7 +570,8 @@
                             <span class="tech-tag">Math</span>
                         </div>
                         <div class="project-actions">
-                            <a href="https://play.google.com/store/apps/details?id=com.kids.math.games.mathskids" class="store-btn playstore-btn" target="_blank">
+                            <a href="https://play.google.com/store/apps/details?id=com.kids.math.games.mathskids"
+                                class="store-btn playstore-btn" target="_blank">
                                 <i class="fab fa-google-play"></i> Play Store
                             </a>
                         </div>
@@ -573,7 +612,9 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">A classic Spider Solitaire game with multiple suit options, unlimited undos, auto-complete function, and customizable settings. Perfect for card game enthusiasts of all skill levels.</p>
+                        <p class="project-description">A classic Spider Solitaire game with multiple suit options,
+                            unlimited undos, auto-complete function, and customizable settings. Perfect for card game
+                            enthusiasts of all skill levels.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -582,10 +623,12 @@
                             <span class="tech-tag">Classic</span>
                         </div>
                         <div class="project-actions">
-                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.spidersolitaireinfinite" class="store-btn playstore-btn" target="_blank">
+                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.spidersolitaireinfinite"
+                                class="store-btn playstore-btn" target="_blank">
                                 <i class="fab fa-google-play"></i> Play Store
                             </a>
-                            <a href="https://apps.apple.com/in/app/spider-solitaire-infinite/id1569466325" class="store-btn appstore-btn" target="_blank">
+                            <a href="https://apps.apple.com/in/app/spider-solitaire-infinite/id1569466325"
+                                class="store-btn appstore-btn" target="_blank">
                                 <i class="fab fa-app-store-ios"></i> App Store
                             </a>
                         </div>
@@ -626,7 +669,9 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">An anagram-based word game that combines unscrambling jumbled letters with a crossword-style grid. Features daily challenges, progressive difficulty, and offline play support.</p>
+                        <p class="project-description">An anagram-based word game that combines unscrambling jumbled
+                            letters with a crossword-style grid. Features daily challenges, progressive difficulty, and
+                            offline play support.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -635,10 +680,12 @@
                             <span class="tech-tag">Word Game</span>
                         </div>
                         <div class="project-actions">
-                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.wordsoftheworld" class="store-btn playstore-btn" target="_blank">
+                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.wordsoftheworld"
+                                class="store-btn playstore-btn" target="_blank">
                                 <i class="fab fa-google-play"></i> Play Store
                             </a>
-                            <a href="https://apps.apple.com/in/app/words-of-the-world/id1511574238" class="store-btn appstore-btn" target="_blank">
+                            <a href="https://apps.apple.com/in/app/words-of-the-world/id1511574238"
+                                class="store-btn appstore-btn" target="_blank">
                                 <i class="fab fa-app-store-ios"></i> App Store
                             </a>
                         </div>
@@ -679,7 +726,9 @@
                                 <span class="status-live">Live</span>
                             </div>
                         </div>
-                        <p class="project-description">A fun and educational matching game designed to help kids learn while having fun. Features multiple learning categories including alphabets, numbers, colors, and more with interactive audio support.</p>
+                        <p class="project-description">A fun and educational matching game designed to help kids learn
+                            while having fun. Features multiple learning categories including alphabets, numbers,
+                            colors, and more with interactive audio support.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">Educational</span>
@@ -688,7 +737,8 @@
                             <span class="tech-tag">Puzzle</span>
                         </div>
                         <div class="project-actions">
-                            <a href="#" class="store-btn playstore-btn disabled">
+                            <a href="https://play.google.com/store/apps/details?id=com.leopardgames.kidsmatchinggame.learngame"
+                                class="store-btn playstore-btn" target="_blank">
                                 <i class="fab fa-google-play"></i> Play Store
                             </a>
                         </div>
@@ -729,7 +779,9 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A multiplayer card racing game that combines strategy and luck. Challenge friends or players worldwide in intense, strategic matches with customizable rules and dynamic game boards.</p>
+                        <p class="project-description">A multiplayer card racing game that combines strategy and luck.
+                            Challenge friends or players worldwide in intense, strategic matches with customizable rules
+                            and dynamic game boards.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -779,10 +831,12 @@
                             </div>
                             <div class="detail-row">
                                 <span class="detail-label">Status:</span>
-                                <span class="status-live">Live</span>
+                                <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A relaxing fishing game with simple tap-to-cast mechanics. Catch a variety of fish species, upgrade your gear, and explore beautiful fishing spots in this addictive casual game.</p>
+                        <p class="project-description">A relaxing fishing game with simple tap-to-cast mechanics. Catch
+                            a variety of fish species, upgrade your gear, and explore beautiful fishing spots in this
+                            addictive casual game.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -835,7 +889,9 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A gravity-defying arcade action game where you control a falling spaceship as it descends through obstacles and platforms. Test your reflexes and timing with smooth, responsive controls.</p>
+                        <p class="project-description">A gravity-defying arcade action game where you control a falling
+                            spaceship as it descends through obstacles and platforms. Test your reflexes and timing with
+                            smooth, responsive controls.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -885,10 +941,12 @@
                             </div>
                             <div class="detail-row">
                                 <span class="detail-label">Status:</span>
-                                <span class="status-live">Live</span>
+                                <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A brain-training puzzle game where you strategically move and unblock buses stuck in traffic jams. Features hundreds of challenging puzzles designed to improve logic and planning skills.</p>
+                        <p class="project-description">A brain-training puzzle game where you strategically move and
+                            unblock buses stuck in traffic jams. Features hundreds of challenging puzzles designed to
+                            improve logic and planning skills.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -941,7 +999,9 @@
                                 <span class="status-live">Live</span>
                             </div>
                         </div>
-                        <p class="project-description">An interactive phonics learning app designed for children aged 3-6 years. Features a step-by-step learning path covering CVC words, blends, diphthongs, digraphs, and more with engaging activities.</p>
+                        <p class="project-description">An interactive phonics learning app designed for children aged
+                            3-6 years. Features a step-by-step learning path covering CVC words, blends, diphthongs,
+                            digraphs, and more with engaging activities.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">Educational</span>
@@ -950,7 +1010,8 @@
                             <span class="tech-tag">Early Reading</span>
                         </div>
                         <div class="project-actions">
-                            <a href="https://play.google.com/store/apps/details?id=com.brainpad.live1010" class="store-btn playstore-btn" target="_blank">
+                            <a href="https://play.google.com/store/apps/details?id=com.brainpad.live1010"
+                                class="store-btn playstore-btn" target="_blank">
                                 <i class="fab fa-google-play"></i> Play Store
                             </a>
                         </div>
@@ -958,7 +1019,7 @@
                 </div>
 
                 <!-- Project 17: Monstar Attack -->
-                <div class="project-item game hypercasual simulation">
+                <div class="project-item game hypercasual simulation  shooter">
                     <div class="project-media">
                         <div class="project-video">
                             <video autoplay loop muted playsinline preload="auto" poster="images/Project17.jpeg">
@@ -988,10 +1049,12 @@
                             </div>
                             <div class="detail-row">
                                 <span class="detail-label">Status:</span>
-                                <span class="status-live">Live</span>
+                                <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">An action-packed shooting game where you defend your territory against waves of monstrous alien creatures. Features fast-paced gameplay, powerful weapons, and colorful visuals.</p>
+                        <p class="project-description">An action-packed shooting game where you defend your territory
+                            against waves of monstrous alien creatures. Features fast-paced gameplay, powerful weapons,
+                            and colorful visuals.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1008,7 +1071,7 @@
                 </div>
 
                 <!-- Project 18: 1000 Soldiers -->
-                <div class="project-item game simulation">
+                <div class="project-item game simulation shooter">
                     <div class="project-media">
                         <div class="project-video">
                             <video autoplay loop muted playsinline preload="auto" poster="images/Project18.png">
@@ -1038,10 +1101,12 @@
                             </div>
                             <div class="detail-row">
                                 <span class="detail-label">Status:</span>
-                                <span class="status-live">Live</span>
+                                <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A strategic battle simulator where you command an ever-growing army across vast lands, facing off against swarms of enemies and powerful bosses. Every decision counts in this epic-scale war game.</p>
+                        <p class="project-description">A strategic battle simulator where you command an ever-growing
+                            army across vast lands, facing off against swarms of enemies and powerful bosses. Every
+                            decision counts in this epic-scale war game.</p>
                         <!-- 
                         <div class="project-features">
                             <h4>Key Features:</h4>
@@ -1106,7 +1171,9 @@
                                 <span class="status-live">Live</span>
                             </div>
                         </div>
-                        <p class="project-description">A challenging puzzle game with over 100 handcrafted puzzles that gradually increase in difficulty. Each level presents a unique spatial challenge using colorful geometric pieces, inspired by kaleidoscope art.</p>
+                        <p class="project-description">A challenging puzzle game with over 100 handcrafted puzzles that
+                            gradually increase in difficulty. Each level presents a unique spatial challenge using
+                            colorful geometric pieces, inspired by kaleidoscope art.</p>
                         <!-- 
                         <div class="project-features">
                             <h4>Key Features:</h4>
@@ -1127,7 +1194,8 @@
                             <span class="tech-tag">Puzzle</span>
                         </div>
                         <div class="project-actions">
-                            <a href="https://play.google.com/store/apps/details?id=com.mindworkgames.kaleidoscope" class="store-btn playstore-btn" target="_blank">
+                            <a href="https://play.google.com/store/apps/details?id=com.mindworkgames.kaleidoscope"
+                                class="store-btn playstore-btn" target="_blank">
                                 <i class="fab fa-google-play"></i> Play Store
                             </a>
                         </div>
@@ -1168,7 +1236,9 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">An immersive 3D matching game where you find and sort pairs of colorful 3D objects. Features a wide collection of items to unlock and explore with time-based multipliers for added challenge.</p>
+                        <p class="project-description">An immersive 3D matching game where you find and sort pairs of
+                            colorful 3D objects. Features a wide collection of items to unlock and explore with
+                            time-based multipliers for added challenge.</p>
                         <!-- 
                         <div class="project-features">
                             <h4>Key Features:</h4>
@@ -1189,10 +1259,12 @@
                             <span class="tech-tag">Puzzle</span>
                         </div>
                         <div class="project-actions">
-                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.match3D" class="store-btn playstore-btn" target="_blank">
+                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.match3D"
+                                class="store-btn playstore-btn" target="_blank">
                                 <i class="fab fa-google-play"></i> Play Store
                             </a>
-                            <a href="https://apps.apple.com/in/app/sorty-match-3d/id1600563244" class="store-btn appstore-btn" target="_blank">
+                            <a href="https://apps.apple.com/in/app/sorty-match-3d/id1600563244"
+                                class="store-btn appstore-btn" target="_blank">
                                 <i class="fab fa-app-store-ios"></i> App Store
                             </a>
                         </div>
@@ -1230,10 +1302,12 @@
                             </div>
                             <div class="detail-row">
                                 <span class="detail-label">Status:</span>
-                                <span class="status-live">Live</span>
+                                <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A modern take on the classic snake game featuring smooth swipe-based controls, snake evolution, and competitive gameplay. Watch your snake grow as you eat and eliminate other players.</p>
+                        <p class="project-description">A modern take on the classic snake game featuring smooth
+                            swipe-based controls, snake evolution, and competitive gameplay. Watch your snake grow as
+                            you eat and eliminate other players.</p>
                         <!-- 
                         <div class="project-features">
                             <h4>Key Features:</h4>
@@ -1292,10 +1366,12 @@
                             </div>
                             <div class="detail-row">
                                 <span class="detail-label">Status:</span>
-                                <span class="status-live">Live</span>
+                                <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A relaxing salon simulator where you run your own foot spa salon. Clean, scrub, massage, and decorate feet with satisfying animations and build your beauty empire.</p>
+                        <p class="project-description">A relaxing salon simulator where you run your own foot spa salon.
+                            Clean, scrub, massage, and decorate feet with satisfying animations and build your beauty
+                            empire.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1342,10 +1418,12 @@
                             </div>
                             <div class="detail-row">
                                 <span class="detail-label">Status:</span>
-                                <span class="status-live">Live</span>
+                                <span class="status-live">Live On Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">A fast-paced endless runner where you swipe or tap to dodge, jump, and slide through urban obstacles. Features endless replayability, challenging obstacles, and stylish visuals.</p>
+                        <p class="project-description">A fast-paced endless runner where you swipe or tap to dodge,
+                            jump, and slide through urban obstacles. Features endless replayability, challenging
+                            obstacles, and stylish visuals.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1354,7 +1432,8 @@
                             <span class="tech-tag">Casual</span>
                         </div>
                         <div class="project-actions">
-                            <a href="#" class="store-btn playstore-btn disabled">
+                            <a href="https://play.google.com/store/apps/details?id=com.outlet.shopping.arcade.idle"
+                                class="store-btn playstore-btn" target="_blank">
                                 <i class="fab fa-google-play"></i> Play Store
                             </a>
                             <a href="#" class="store-btn appstore-btn disabled">
@@ -1395,10 +1474,12 @@
                             </div>
                             <div class="detail-row">
                                 <span class="detail-label">Status:</span>
-                                <span class="status-live">Live</span>
+                                <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A creative runner game where you shape and sculpt objects while running through colorful obstacle-filled tracks. Use various sculpting tools like cutters, chisels, and rollers to mold your path to victory.</p>
+                        <p class="project-description">A creative runner game where you shape and sculpt objects while
+                            running through colorful obstacle-filled tracks. Use various sculpting tools like cutters,
+                            chisels, and rollers to mold your path to victory.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1448,7 +1529,9 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">A vast collection of maze puzzles with six levels of difficulty, each containing hundreds of custom-created mazes. Navigate through the labyrinths by swiping in the desired direction and collect orbs along the way.</p>
+                        <p class="project-description">A vast collection of maze puzzles with six levels of difficulty,
+                            each containing hundreds of custom-created mazes. Navigate through the labyrinths by swiping
+                            in the desired direction and collect orbs along the way.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1457,10 +1540,12 @@
                             <span class="tech-tag">Puzzle</span>
                         </div>
                         <div class="project-actions">
-                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.mazecraze" class="store-btn playstore-btn" target="_blank">
+                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.mazecraze"
+                                class="store-btn playstore-btn" target="_blank">
                                 <i class="fab fa-google-play"></i> Play Store
                             </a>
-                            <a href="https://apps.apple.com/in/app/maze-craze-maze-games/id1453577300" class="store-btn appstore-btn" target="_blank">
+                            <a href="https://apps.apple.com/in/app/maze-craze-maze-games/id1453577300"
+                                class="store-btn appstore-btn" target="_blank">
                                 <i class="fab fa-app-store-ios"></i> App Store
                             </a>
                         </div>
@@ -1468,7 +1553,7 @@
                 </div>
 
                 <!-- Project 26: Runner Shooter -->
-                <div class="project-item game hypercasual simulation">
+                <div class="project-item game hypercasual simulation  shooter">
                     <div class="project-media">
                         <div class="project-video">
                             <video autoplay loop muted playsinline preload="auto" poster="images/Project26.png">
@@ -1498,10 +1583,12 @@
                             </div>
                             <div class="detail-row">
                                 <span class="detail-label">Status:</span>
-                                <span class="status-live">Live</span>
+                                <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A fast-paced runner action game where you dash forward while shooting enemies and dodging obstacles. Take down enemies with precision while staying on the move in this thrilling hybrid of runner and shooter gameplay.</p>
+                        <p class="project-description">A fast-paced runner action game where you dash forward while
+                            shooting enemies and dodging obstacles. Take down enemies with precision while staying on
+                            the move in this thrilling hybrid of runner and shooter gameplay.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1548,10 +1635,14 @@
                             </div>
                             <div class="detail-row">
                                 <span class="detail-label">Status:</span>
-                                <span class="status-live">Live</span>
+                                <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A puzzle game that challenges players to spot the differences between two seemingly identical images. Features creative puzzles, progressive difficulty, and a hint system to help with trickier levels.</p>
+                        <p class="project-description">Sharpen your eyes and test your focus in this classic
+                            spot-the-difference challenge! Compare two seemingly identical
+                            images, find the hidden differences, and tap to circle them. With vibrant visuals and
+                            brain-teasing levels, it’s the
+                            perfect casual game for puzzle lovers.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1598,10 +1689,12 @@
                             </div>
                             <div class="detail-row">
                                 <span class="detail-label">Status:</span>
-                                <span class="status-live">Live</span>
+                                <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">An endless vertical runner game where you climb higher and higher while avoiding traps, enemies, and obstacles. Test your reflexes on shifting, collapsing, and tricky platforms that keep the gameplay exciting and unpredictable.</p>
+                        <p class="project-description">An endless vertical runner game where you climb higher and higher
+                            while avoiding traps, enemies, and obstacles. Test your reflexes on shifting, collapsing,
+                            and tricky platforms that keep the gameplay exciting and unpredictable.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1648,10 +1741,12 @@
                             </div>
                             <div class="detail-row">
                                 <span class="detail-label">Status:</span>
-                                <span class="status-live">Live</span>
+                                <span class="status-live">Live On Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">A physics-based chess game where you flick chess pieces to knock out opponents instead of following traditional moves. It's all about angles, momentum, and timing in fast, skill-based battles.</p>
+                        <p class="project-description">A physics-based chess game where you flick chess pieces to knock
+                            out opponents instead of following traditional moves. It's all about angles, momentum, and
+                            timing in fast, skill-based battles.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1662,7 +1757,8 @@
                             <span class="tech-tag">casual</span>
                         </div>
                         <div class="project-actions">
-                            <a href="https://play.google.com/store/apps/details?id=com.twostar.flickchess" class="store-btn playstore-btn" target="_blank">
+                            <a href="https://play.google.com/store/apps/details?id=com.twostar.flickchess"
+                                class="store-btn playstore-btn" target="_blank">
                                 <i class="fab fa-google-play"></i> Play Store
                             </a>
                             <a href="#" class="store-btn appstore-btn disabled">
@@ -1706,7 +1802,9 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">A dynamic 3D matching game where you find and match identical 3D objects from a scattered pile before time runs out. Features hundreds of unique and colorful items with time-limited challenges.</p>
+                        <p class="project-description">A dynamic 3D matching game where you find and match identical 3D
+                            objects from a scattered pile before time runs out. Features hundreds of unique and colorful
+                            items with time-limited challenges.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1715,14 +1813,15 @@
                             <span class="tech-tag">Match-Puzzle</span>
                         </div>
                         <div class="project-actions">
-                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.doublematch3d" class="store-btn playstore-btn" target="_blank">
+                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.doublematch3d"
+                                class="store-btn playstore-btn" target="_blank">
                                 <i class="fab fa-google-play"></i> Play Store
                             </a>
                         </div>
                     </div>
                 </div>
                 <!-- Project 31: Golf Clash -->
-                <div class="project-item puzzle hypercasual multiplayer ">
+                <div class="project-item puzzle hypercasual multiplayer sports ">
                     <div class="project-media">
                         <div class="project-video">
                             <video autoplay loop muted playsinline preload="auto" poster="images/Project31.png">
@@ -1755,9 +1854,11 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">Tee off in fast-paced 1v1 golf battles! Master timing, aim, and spin in stunning courses around the world. Upgrade your
-                        clubs, unlock powerful balls, and compete in real-time tournaments. Easy to play, challenging to master—Golf Clash is
-                        the ultimate golf showdown!</p>
+                        <p class="project-description">Tee off in fast-paced 1v1 golf battles! Master timing, aim, and
+                            spin in stunning courses around the world. Upgrade your
+                            clubs, unlock powerful balls, and compete in real-time tournaments. Easy to play,
+                            challenging to master—Golf Clash is
+                            the ultimate golf showdown!</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1765,6 +1866,590 @@
                             <span class="tech-tag">Sports</span>
                             <span class="tech-tag">Multiplayer</span>
                             <span class="tech-tag">Casual Sports</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 32: Webgl Roulete -->
+                <div class="project-item web3 casino multiplayer">
+                    <div class="project-media" data-resolution="1920x1080">
+                        <div class="project-video">
+                            <video autoplay loop muted playsinline preload="auto" poster="images/Project32.png">
+                                <source src="videos/Project32.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <img src="images/Project32.png" alt="Casino Roulet">
+                            </div>
+                            <div class="title-category">
+                                <h3 class="project-title">Casino Roulete</h3>
+                                <span class="project-category">Casino / Spin Wheel</span>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Platform:</span>
+                                <span class="detail-value">Web3</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Engine:</span>
+                                <span class="detail-value">Unity</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Status:</span>
+                                <span class="status-completed">Completed</span>
+                            </div>
+                        </div>
+                        <p class="project-description">A visually rich, fast-paced spin wheel game designed for casual
+                            casino lovers. Players enjoy vibrant animations, smooth
+                            gameplay, and exciting rewards with every spin. Perfectly optimized for mobile devices, this
+                            game captures the thrill of
+                            classic Vegas-style spinning in a sleek modern interface.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">2D</span>
+                            <span class="tech-tag">Casino</span>
+                            <span class="tech-tag">SpinWheel</span>
+                            <span class="tech-tag">Multiplayer</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 33: Casino Slot Machine -->
+                <div class="project-item web3 casino multiplayer">
+                    <div class="project-media" data-resolution="1920x1080">
+                        <div class="project-video">
+                            <video autoplay loop muted playsinline preload="auto" poster="images/Project33.png">
+                                <source src="videos/Project33.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <img src="images/Project33.png" alt="Slot Machine">
+                            </div>
+                            <div class="title-category">
+                                <h3 class="project-title">Slot Machine</h3>
+                                <span class="project-category">Multiplayer / Slot Machine</span>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Platform:</span>
+                                <span class="detail-value">Web3 , Android</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Engine:</span>
+                                <span class="detail-value">Unity</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Status:</span>
+                                <span class="status-completed">Completed</span>
+                            </div>
+                        </div>
+                        <p class="project-description">Experience the thrill of Vegas in your pocket! Casino Slot
+                            Machine features lively reels, rich graphics, and exciting
+                            spin animations that keep players coming back for more. Perfect for casual play with a real
+                            slot machine feel.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">2D</span>
+                            <span class="tech-tag">Casino</span>
+                            <span class="tech-tag">Slot Machine</span>
+                            <span class="tech-tag">Multiplayer</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 34 :WeareWarrior -->
+                <div class="project-item puzzle hypercasual multiplayer shooter ">
+                    <div class="project-media">
+                        <div class="project-video">
+                            <video autoplay loop muted playsinline preload="auto" poster="images/Project34.png">
+                                <source src="videos/Project34.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <img src="images/Project34.png" alt="WeareWarrior">
+                            </div>
+                            <div class="title-category">
+                                <h3 class="project-title">WeareWarrior</h3>
+                                <span class="project-category">Multiplayer / Tower Defense</span>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Platform:</span>
+                                <span class="detail-value">Android</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Engine:</span>
+                                <span class="detail-value">Unity</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Status:</span>
+                                <span class="status-completed">Completed</span>
+                            </div>
+                        </div>
+                        <p class="project-description">A fast-paced multiplayer battle game where two armies clash in
+                            real-time! Players must defend their side while
+                            strategically deploying warriors to overpower the enemy. Designed for thrilling PvP action,
+                            We Are Warrior blends tower
+                            defense with head-to-head combat in an intense and stylish battlefield.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">3D</span>
+                            <span class="tech-tag">Strategy</span>
+                            <span class="tech-tag">Multiplayer</span>
+                            <span class="tech-tag">Action</span>
+                            <span class="tech-tag">Tower Defense</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 35 :Color therapy  -->
+                <div class="project-item puzzle casual educational ">
+                    <div class="project-media">
+                        <div class="project-video">
+                            <video autoplay loop muted playsinline preload="auto" poster="images/Project35.png">
+                                <source src="videos/Project35.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <img src="images/Project35.png" alt="Color Therapy">
+                            </div>
+                            <div class="title-category">
+                                <h3 class="project-title">Color Therapy</h3>
+                                <span class="project-category">Educational / Casual</span>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Platform:</span>
+                                <span class="detail-value">Android</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Engine:</span>
+                                <span class="detail-value">Unity</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Status:</span>
+                                <span class="status-completed">Completed</span>
+                            </div>
+                        </div>
+                        <p class="project-description">Unleash your creativity in Color Therapy – a soothing coloring
+                            game where players fill in beautifully outlined images
+                            with vibrant colors. From relaxing mandalas to cute animals, it's the perfect blend of
+                            mindfulness and artistic
+                            expression.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">2D</span>
+                            <span class="tech-tag">Realxing</span>
+                            <span class="tech-tag">Educational</span>
+                            <span class="tech-tag">Casual</span>
+                            <span class="tech-tag">Art & Design</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 36 :NFTDUEL -->
+                <div class="project-item  web3 multiplayer card">
+                    <div class="project-media" data-resolution="1920x1080">
+                        <div class="project-video">
+                            <video autoplay loop muted playsinline preload="auto" poster="images/Project36.png">
+                                <source src="videos/Project36.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <img src="images/Project36.png" alt="NFTDUEL">
+                            </div>
+                            <div class="title-category">
+                                <h3 class="project-title">NFTDUEL</h3>
+                                <span class="project-category">Multiplayer / NFT Card Game </span>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Platform:</span>
+                                <span class="detail-value">Web3 , Android , iOS</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Engine:</span>
+                                <span class="detail-value">Unity</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Status:</span>
+                                <span class="status-live">Live on Stores</span>
+                            </div>
+                        </div>
+                        <p class="project-description">NFTDUEL is a cutting-edge Web3 trading card game where players
+                            collect NFT-powered cards, build strategic decks, and
+                            battle in real-time multiplayer arenas. Featuring anime-inspired IPs and cross-platform
+                            support, the game blends the
+                            thrill of classic TCGs with blockchain-backed ownership and reward systems.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">3D</span>
+                            <span class="tech-tag">Card</span>
+                            <span class="tech-tag">Web3</span>
+                            <span class="tech-tag">Multiplayer</span>
+                            <span class="tech-tag">NFT Card Game</span>
+                            <span class="tech-tag">Strategy</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://play.google.com/store/apps/details?id=com.noborderz.tcgnftduel"
+                                class="store-btn playstore-btn" target="_blank">
+                                <i class="fab fa-google-play"></i> Play Store
+                            </a>
+                            <a href="#" class="store-btn appstore-btn disabled">
+                                <i class="fab fa-app-store-ios"></i> App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 37 :Run For Money -->
+                <div class="project-item  web3 multiplayer">
+                    <div class="project-media" data-resolution="1920x1080">
+                        <div class="project-video">
+                            <video autoplay loop muted playsinline preload="auto" poster="images/Project37.png">
+                                <source src="videos/Project37.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <img src="images/Project37.png" alt="Run For Money">
+                            </div>
+                            <div class="title-category">
+                                <h3 class="project-title">Run For Money</h3>
+                                <span class="project-category">Multiplayer / Action </span>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Platform:</span>
+                                <span class="detail-value">Web3 , Android , iOS</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Engine:</span>
+                                <span class="detail-value">Unity</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Status:</span>
+                                <span class="status-live">Live on Stores</span>
+                            </div>
+                        </div>
+                        <p class="project-description">A thrilling multiplayer chase game set in the immersive XANA
+                            metaverse. Players compete as runners or hunters in
+                            fast-paced, time-based missions that blend real-time action with strategic movement, avatar
+                            customization, and
+                            Web3-enabled environments.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">3D</span>
+                            <span class="tech-tag">NFT</span>
+                            <span class="tech-tag">Web3</span>
+                            <span class="tech-tag">Multiplayer</span>
+                            <span class="tech-tag">Action</span>
+                            <span class="tech-tag">Runner</span>
+                            <span class="tech-tag">Strategy</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://play.google.com/store/apps/details?id=com.nbmetaverse.xanarunformoney"
+                                class="store-btn playstore-btn" target="_blank">
+                                <i class="fab fa-google-play"></i> Play Store
+                            </a>
+                            <a href="#" class="store-btn appstore-btn disabled">
+                                <i class="fab fa-app-store-ios"></i> App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 38 :XANA -->
+                <div class="project-item  web3 multiplayer simulation">
+                    <div class="project-media" data-resolution="1920x1080">
+                        <div class="project-video">
+                            <video autoplay loop muted playsinline preload="auto" poster="images/Project38.png">
+                                <source src="videos/Project38.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <img src="images/Project38.png" alt="XANA">
+                            </div>
+                            <div class="title-category">
+                                <h3 class="project-title">XANA</h3>
+                                <span class="project-category">Multiplayer / Simulation </span>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Platform:</span>
+                                <span class="detail-value">Web3 , Android , iOS</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Engine:</span>
+                                <span class="detail-value">Unity</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Status:</span>
+                                <span class="status-live">Live on Stores</span>
+                            </div>
+                        </div>
+                        <p class="project-description">A 3D metaverse platform that lets users explore virtual worlds,
+                            attend events, customize avatars, and interact in
+                            real-time multiplayer environments. Built with Web3 features, XANA supports digital
+                            ownership, social engagement, and
+                            immersive experiences.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">3D</span>
+                            <span class="tech-tag">NFT</span>
+                            <span class="tech-tag">Web3</span>
+                            <span class="tech-tag">Avatar Customization</span>
+                            <span class="tech-tag">Multiplayer</span>
+                            <span class="tech-tag">Virtual World</span>
+                            <span class="tech-tag">Social</span>
+                            <span class="tech-tag">Simulation</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://play.google.com/store/apps/details?id=com.nbi.xana"
+                                class="store-btn playstore-btn" target="_blank">
+                                <i class="fab fa-google-play"></i> Play Store
+                            </a>
+                            <a href="#" class="store-btn appstore-btn disabled">
+                                <i class="fab fa-app-store-ios"></i> App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 39 :Hunt Royale -->
+                <div class="project-item  multiplayer action shooter">
+                    <div class="project-media" data-resolution="1920x1080">
+                        <div class="project-video">
+                            <video autoplay loop muted playsinline preload="auto" poster="images/Project39.png">
+                                <source src="videos/Project39.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <img src="images/Project39.png" alt="Hunt Royale">
+                            </div>
+                            <div class="title-category">
+                                <h3 class="project-title">Hunt Royale</h3>
+                                <span class="project-category">Multiplayer / Action </span>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Platform:</span>
+                                <span class="detail-value">Android , iOS</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Engine:</span>
+                                <span class="detail-value">Unity</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Status:</span>
+                                <span class="status-completed">Completed</span>
+                            </div>
+                        </div>
+                        <p class="project-description">A multiplayer action game where players battle in real-time
+                            teams, collect healing points, and eliminate opponents in a fast-paced warzone. Hunt Royale
+                            delivers thrilling combat with strategic team play and dynamic battlefield action.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">3D</span>
+                            <span class="tech-tag">Action</span>
+                            <span class="tech-tag">Real-Time PvP</span>
+                            <span class="tech-tag">Team Combat</span>
+                            <span class="tech-tag">Multiplayer</span>
+                            <span class="tech-tag">Survival </span>
+                        </div>
+                        <div class="project-actions playstore-btn-disabled">
+                            <a href="#" class="store-btn playstore-btn-disabled" target="_blank">
+                                <i class="fab fa-google-play"></i> Play Store
+                            </a>
+                            <a href="#" class="store-btn appstore-btn disabled">
+                                <i class="fab fa-app-store-ios"></i> App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 40:  Solitaire Infinite -->
+                <div class="project-item game card ">
+                    <div class="project-media">
+                        <div class="project-video">
+                            <video autoplay loop muted playsinline preload="auto" poster="images/Project40.jpg">
+                                <source src="videos/Project40.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <img src="images/Project40.jpg" alt=" Solitaire Infinite Icon">
+                            </div>
+                            <div class="title-category">
+                                <h3 class="project-title"> Solitaire Infinite</h3>
+                                <span class="project-category">Card Game / Classic</span>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Platform:</span>
+                                <span class="detail-value">Android, iOS</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Engine:</span>
+                                <span class="detail-value">Unity</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Status:</span>
+                                <span class="status-live">Live on Stores</span>
+                            </div>
+                        </div>
+                        <p class="project-description">Players start with a shuffled deck and aim to stack cards in ascending order by suit, using classic solitaire mechanics. With intuitive drag-and-drop controls, undo options, and endless reshuffling, Solitaire Infinite offers a smooth,
+                        relaxing experience for casual players and card game enthusiasts alike</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">2D</span>
+                            <span class="tech-tag">Card Game</span>
+                            <span class="tech-tag">Classic</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.solitaireinfinite"
+                                class="store-btn playstore-btn" target="_blank">
+                                <i class="fab fa-google-play"></i> Play Store
+                            </a>
+                            <a href="https://apps.apple.com/in/app/spider-solitaire-infinite/id1569466325"
+                                class="store-btn appstore-btn" target="_blank">
+                                <i class="fab fa-app-store-ios"></i> App Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 41:  Ant Colony -->
+                <div class="project-item game casual simulation ">
+                    <div class="project-media">
+                        <div class="project-video">
+                            <video autoplay loop muted playsinline preload="auto" poster="images/Project41.jpg">
+                                <source src="videos/Project41.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <img src="images/Project41.jpg" alt=" Ant Colony">
+                            </div>
+                            <div class="title-category">
+                                <h3 class="project-title"> Ant Colony</h3>
+                                <span class="project-category">Simulation / Colony Builder</span>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Platform:</span>
+                                <span class="detail-value">Android</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Engine:</span>
+                                <span class="detail-value">Unity</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Status:</span>
+                                <span class="status-completed">Completed</span>
+                            </div>
+                        </div>
+                        <p class="project-description">Build, grow, and command your own underground empire in Ant Colony! Gather resources, expand your tunnels, and manage
+                        your swarm of workers, soldiers, and foragers. Defend your queen, outsmart predators, and rise as the most powerful
+                        colony in the wild.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">3D</span>
+                            <span class="tech-tag">Ant Simulator</span>
+                            <span class="tech-tag">Casual</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 41:  Ant Battle -->
+                <div class="project-item game casual simulation ">
+                    <div class="project-media">
+                        <div class="project-video">
+                            <video autoplay loop muted playsinline preload="auto" poster="images/Project42.png`">
+                                <source src="videos/Project42.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <img src="images/Project42.png" alt=" Ant Colony">
+                            </div>
+                            <div class="title-category">
+                                <h3 class="project-title"> Ant Battle</h3>
+                                <span class="project-category">Simulation / strategy</span>
+                            </div>
+                        </div>
+                        <div class="project-details">
+                            <div class="detail-row">
+                                <span class="detail-label">Platform:</span>
+                                <span class="detail-value">Android</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Engine:</span>
+                                <span class="detail-value">Unity</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="detail-label">Status:</span>
+                                <span class="status-completed">Completed</span>
+                            </div>
+                        </div>
+                        <p class="project-description">Ant Battle is a strategic resource-gathering and combat game where players harvest fruit, feed their queen ant, and grow
+                        their colony. As the queen lays eggs, new warrior ants are born to defend against rival colonies in real-time battles.
+                        Balance harvesting, growth, and tactical combat to dominate the battlefield.</p>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">3D</span>
+                            <span class="tech-tag">Strategy</span>
+                            <span class="tech-tag">Casual</span>
                         </div>
                     </div>
                 </div>
@@ -1777,7 +2462,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-logo">
-                    <h2>Riken<span>Sonani</span></h2>
+                    <h2>Riken <span>Sonani</span></h2>
                 </div>
                 <div class="footer-links">
                     <a href="index.html#home">Home</a>
@@ -1800,4 +2485,5 @@
 
     <script src="js/main.js"></script>
 </body>
-</html> 
+
+</html>

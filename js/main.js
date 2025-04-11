@@ -13,6 +13,17 @@ window.addEventListener('scroll', () => {
     }
 });
 
+// ============= Back to Top Button =============
+if (backToTopBtn) {
+    backToTopBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+}
+
 // ============= Mobile Navigation =============
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
