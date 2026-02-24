@@ -4,32 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Riken Sonani - Unity Game Developer</title>
+    <title>Riken Sonani — Senior Unity Game Developer | AR/VR Expert | Top 3% on Upwork</title>
+    <meta name="description"
+        content="Riken Sonani is a Top Rated Plus Unity Game Developer on Upwork with 150+ projects, 10,000+ hours, and 100% Job Success. Specializing in Unity, AR/VR, multiplayer games, and mobile game development.">
+    <meta name="keywords"
+        content="Unity Game Developer, AR/VR Expert, Upwork Top Rated Plus, Freelance Game Developer, Mobile Game Development, Multiplayer Games, C# Developer">
+    <meta name="author" content="Riken Sonani">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Riken Sonani — Senior Unity Game Developer">
+    <meta property="og:description"
+        content="Top 3% Upwork Freelancer | 150+ Projects | 10,000+ Hours | 100% Job Success">
+    <meta property="og:type" content="website">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/testimonials.css">
-    <!-- Font Awesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
-    <!-- Header/Navigation -->
-    <header>
+    <!-- ========== HEADER ========== -->
+    <header id="header">
         <div class="container">
             <div class="logo">
                 <h1>Riken <span>Sonani</span></h1>
             </div>
             <nav>
-                <ul class="nav-links">
+                <ul class="nav-links" id="navLinks">
                     <li><a href="#home">Home</a></li>
+                    <li><a href="#stats">Stats</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#testimonials">Reviews</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+
                 </ul>
-                <div class="hamburger">
+                <div class="hamburger" id="hamburger">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -38,38 +59,108 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
+    <!-- ========== HERO ========== -->
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h2>Hello, I'm</h2>
-                    <h1>Riken Sonani</h1>
-                    <h3>Unity Game Developer | AR/VR Expert | UI/UX Specialist</h3>
-                    <p>Top Rated Plus (Top 3%) Upwork Freelancer | 100% Job Success Ratio | 9000+ Hours Worked</p>
-                    <p>Transforming gaming visions into reality with custom, optimized, and immersive experiences.</p>
+                    <div class="hero-badge">
+                        <i class="fas fa-circle"></i>
+                        Available for new projects
+                    </div>
+                    <h1>Hi, I'm <span class="gradient-text">Riken Sonani</span></h1>
+                    <h2><span class="typing-text" id="typingText"></span><span class="cursor"></span></h2>
+                    <p>Top Rated Plus (Top 3%) Upwork developer transforming gaming visions into reality with custom,
+                        optimized, and immersive experiences across mobile, AR/VR, and multiplayer platforms.</p>
+
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <div class="stat-number"><span class="accent">150+</span></div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="hero-stat">
+                            <div class="stat-number"><span class="accent">10,000+</span></div>
+                            <div class="stat-label">Hours</div>
+                        </div>
+                        <div class="hero-stat">
+                            <div class="stat-number"><span class="accent">100%</span></div>
+                            <div class="stat-label">Job Success</div>
+                        </div>
+                        <div class="hero-stat">
+                            <div class="stat-number"><span class="accent">Top 3%</span></div>
+                            <div class="stat-label">On Upwork</div>
+                        </div>
+                    </div>
+
                     <div class="hero-cta">
-                        <a href="#projects" class="btn primary-btn">View Work</a>
+                        <a href="#projects" class="btn primary-btn">
+                            <i class="fas fa-eye"></i> View My Work
+                        </a>
                     </div>
                 </div>
+
                 <div class="hero-image">
-                    <div class="image-placeholder">
-                        <img src="images/Profile.jpg" alt="Riken Sonani">
+                    <div class="image-wrapper">
+                        <img src="images/Profile.jpg" alt="Riken Sonani — Senior Unity Game Developer">
+                    </div>
+                    <div class="floating-badge badge-top">
+                        <i class="fas fa-star" style="color: #fbbf24;"></i>
+                        <div>
+                            <div class="badge-text">Top Rated Plus</div>
+                            <div class="badge-sub">Upwork Badge</div>
+                        </div>
+                    </div>
+                    <div class="floating-badge badge-bottom">
+                        <i class="fas fa-shield-halved" style="color: #14a800;"></i>
+                        <div>
+                            <div class="badge-text">100% Job Success</div>
+                            <div class="badge-sub">150+ Projects</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
+    <!-- ========== STATS / TRUST BAR ========== -->
+    <section id="stats" class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card reveal">
+                    <div class="stat-icon"><i class="fas fa-briefcase"></i></div>
+                    <div class="stat-number" data-target="150" data-suffix="+">0</div>
+                    <div class="stat-label">Projects Delivered</div>
+                </div>
+                <div class="stat-card reveal">
+                    <div class="stat-icon"><i class="fas fa-clock"></i></div>
+                    <div class="stat-number" data-target="10000" data-suffix="+">0</div>
+                    <div class="stat-label">Hours Worked</div>
+                </div>
+                <div class="stat-card reveal">
+                    <div class="stat-icon"><i class="fas fa-trophy"></i></div>
+                    <div class="stat-number" data-target="100" data-suffix="%">0</div>
+                    <div class="stat-label">Job Success Rate</div>
+                </div>
+                <div class="stat-card reveal">
+                    <div class="stat-icon"><i class="fas fa-medal"></i></div>
+                    <div class="stat-number" data-target="3" data-suffix="%" data-prefix="Top ">0</div>
+                    <div class="stat-label">Upwork Developer</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
     <section id="skills" class="skills">
         <div class="container">
-            <div class="section-header">
-                <h2>My Skills</h2>
+            <div class="section-header reveal">
+                <h2>Technical Skills</h2>
                 <div class="underline"></div>
+                <p class="section-subtitle">Deep expertise across game development, AR/VR, and interactive technologies
+                </p>
             </div>
             <div class="skills-content">
-                <div class="skills-category">
+                <div class="skills-category reveal">
                     <h3>Game Development</h3>
                     <div class="skills-grid">
                         <div class="skill-item">
@@ -98,7 +189,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="skills-category">
+                <div class="skills-category reveal">
                     <h3>AR/VR Development</h3>
                     <div class="skills-grid">
                         <div class="skill-item">
@@ -127,7 +218,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="skills-category">
+                <div class="skills-category reveal">
                     <h3>Other Skills</h3>
                     <div class="skills-grid">
                         <div class="skill-item">
@@ -140,7 +231,7 @@
                         </div>
                         <div class="skill-item">
                             <i class="fas fa-cogs"></i>
-                            <h4>Performance Optimization</h4>
+                            <h4>Optimization</h4>
                         </div>
                         <div class="skill-item">
                             <i class="fas fa-code-branch"></i>
@@ -151,8 +242,8 @@
                             <h4>Photon/Mirror</h4>
                         </div>
                         <div class="skill-item">
-                            <i class="fas fa-cube"></i>
-                            <h4>Blockchain/NFT</h4>
+                            <i class="fas fa-robot"></i>
+                            <h4>AI Integration</h4>
                         </div>
                     </div>
                 </div>
@@ -160,360 +251,765 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- ========== EXPERTISE BARS ========== -->
+    <section id="expertise" class="expertise-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Core Expertise</h2>
+                <div class="underline"></div>
+                <p class="section-subtitle">Proficiency levels across my primary technologies</p>
+            </div>
+            <div class="expertise-grid reveal">
+                <div class="expertise-item">
+                    <div class="expertise-header">
+                        <div class="expertise-icon"><i class="fab fa-unity"></i></div>
+                        <span class="expertise-name">Unity Engine</span>
+                        <span class="expertise-percent">98%</span>
+                    </div>
+                    <div class="expertise-bar">
+                        <div class="expertise-fill" data-width="98"></div>
+                    </div>
+                    <span class="expertise-detail">150+ projects • 10+ years</span>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-header">
+                        <div class="expertise-icon"><i class="fas fa-code"></i></div>
+                        <span class="expertise-name">C# Programming</span>
+                        <span class="expertise-percent">96%</span>
+                    </div>
+                    <div class="expertise-bar">
+                        <div class="expertise-fill" data-width="96"></div>
+                    </div>
+                    <span class="expertise-detail">Advanced OOP • Design Patterns • SOLID</span>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-header">
+                        <div class="expertise-icon"><i class="fas fa-gamepad"></i></div>
+                        <span class="expertise-name">Game Development</span>
+                        <span class="expertise-percent">95%</span>
+                    </div>
+                    <div class="expertise-bar">
+                        <div class="expertise-fill" data-width="95"></div>
+                    </div>
+                    <span class="expertise-detail">2D/3D • Physics • AI • Game Feel</span>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-header">
+                        <div class="expertise-icon"><i class="fas fa-users"></i></div>
+                        <span class="expertise-name">Multiplayer / Networking</span>
+                        <span class="expertise-percent">92%</span>
+                    </div>
+                    <div class="expertise-bar">
+                        <div class="expertise-fill" data-width="92"></div>
+                    </div>
+                    <span class="expertise-detail">Photon • Mirror • Real-time PvP</span>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-header">
+                        <div class="expertise-icon"><i class="fas fa-vr-cardboard"></i></div>
+                        <span class="expertise-name">AR / VR Development</span>
+                        <span class="expertise-percent">90%</span>
+                    </div>
+                    <div class="expertise-bar">
+                        <div class="expertise-fill" data-width="90"></div>
+                    </div>
+                    <span class="expertise-detail">Meta Quest • OpenXR • ARKit • SteamVR</span>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-header">
+                        <div class="expertise-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <span class="expertise-name">Mobile Optimization</span>
+                        <span class="expertise-percent">93%</span>
+                    </div>
+                    <div class="expertise-bar">
+                        <div class="expertise-fill" data-width="93"></div>
+                    </div>
+                    <span class="expertise-detail">iOS • Android • Store Publishing</span>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-header">
+                        <div class="expertise-icon"><i class="fas fa-robot"></i></div>
+                        <span class="expertise-name">AI in Games</span>
+                        <span class="expertise-percent">85%</span>
+                    </div>
+                    <div class="expertise-bar">
+                        <div class="expertise-fill" data-width="85"></div>
+                    </div>
+                    <span class="expertise-detail">NPC AI • Procedural Generation • LLM Integration</span>
+                </div>
+                <div class="expertise-item">
+                    <div class="expertise-header">
+                        <div class="expertise-icon"><i class="fas fa-cube"></i></div>
+                        <span class="expertise-name">Web3 / Blockchain</span>
+                        <span class="expertise-percent">80%</span>
+                    </div>
+                    <div class="expertise-bar">
+                        <div class="expertise-fill" data-width="80"></div>
+                    </div>
+                    <span class="expertise-detail">NFT Integration • WebGL • Wallet Connect</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
     <section id="projects" class="projects">
         <div class="container">
-            <div class="section-header">
+            <div class="section-header reveal">
                 <h2>Featured Projects</h2>
                 <div class="underline"></div>
+                <p class="section-subtitle">A selection from 150+ successfully delivered projects</p>
             </div>
 
             <div class="projects-grid">
-                <!-- Project 1: Math Game For Kids -->
-                <div class="project-item">
-                    <img src="images/Project8.png" alt="Math Game For Kids">
+                <!-- Project 1: XANA -->
+                <div class="project-item reveal">
+                    <div class="img-wrapper">
+                        <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project38.png">
+                            <source src="videos/Project38.mp4" type="video/mp4">
+                        </video>
+                    </div>
                     <div class="project-info">
-                        <h3>Math Game For Kids</h3>
-                        <!-- <p>Poker Payday is a strategic card-clearing game where players form real poker hands to eliminate cards, manage the grid, and earn bonus rewards through skillful planning.</p> -->
+                        <h3>XANA — Metaverse</h3>
                         <div class="project-tech">
-                            <span>Unity</span>
-                            <span>C#</span>
-                            <span>2D</span>
-                            <span>Educational</span>
-                            <span>Math</span>
+                            <span>3D</span>
+                            <span>Crypto</span>
+                            <span>Multiplayer</span>
+                            <span>NFT</span>
+                            <span>Web3</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://play.google.com/store/apps/details?id=com.kids.math.games.mathskids"
-                                class="btn small-btn" target="_blank">Play Store</a>
-                            <!-- <a href="#" class="btn small-btn github-btn">View Code</a> -->
+                            <a href="https://play.google.com/store/apps/details?id=com.nbi.xana" class="btn small-btn"
+                                target="_blank" rel="noopener">
+                                <i class="fab fa-google-play"></i> Play Store
+                            </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 2: Save The Dog -->
-                <div class="project-item">
-                    <img src="images/Project2.png" alt="Save The Dog">
+                <!-- Project 2: Tennis VR Simulation -->
+                <div class="project-item reveal">
+                    <div class="img-wrapper">
+                        <video loop muted playsinline preload="none" data-lazy="true" poster="images/VRProject3.png">
+                            <source src="videos/VRProject3.mp4" type="video/mp4">
+                        </video>
+                    </div>
                     <div class="project-info">
-                        <h3>Save The Dog</h3>
-                        <!-- <p>A physics-based puzzle game where players draw lines or shapes to protect dogs from threats. Features hundreds of challenging levels.</p> -->
+                        <h3>Tennis VR Simulation</h3>
                         <div class="project-tech">
-                            <span>Unity</span>
-                            <span>C#</span>
-                            <span>2D</span>
-                            <span>Puzzle</span>
+                            <span>VR</span>
+                            <span>3D</span>
+                            <span>Simulation</span>
+                            <span>Quest 2/3</span>
+                            <span>OpenXR</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://play.google.com/store/apps/details?id=com.superstarstudio.savethedog"
-                                class="btn small-btn" target="_blank">Play Store</a>
-                            <!-- <a href="#" class="btn small-btn github-btn"
-                            target="_blank">App Store</a> -->
+                            <a href="projects.html" class="btn small-btn" target="_blank" rel="noopener">
+                                <i class="fas fa-info-circle"></i> Details
+                            </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 3: WordBlox -->
-                <div class="project-item">
-                    <img src="images/Project3.png" alt="WordBlox - Word Puzzles">
+                <!-- Project 3: Poker Pay Day -->
+                <div class="project-item reveal">
+                    <div class="img-wrapper">
+                        <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project1.png">
+                            <source src="videos/Project1.mp4" type="video/mp4">
+                        </video>
+                    </div>
                     <div class="project-info">
-                        <h3>WordBlox - Word Puzzles</h3>
-                        <!-- <p>A fresh twist on word puzzles combining classic word search, crossword, and trivia gameplay with diverse clue formats.</p> -->
+                        <h3>Poker Pay Day</h3>
                         <div class="project-tech">
-                            <span>Unity</span>
-                            <span>C#</span>
                             <span>2D</span>
-                            <span>Puzzle</span>
+                            <span>Card</span>
+                            <span>Multiplayer</span>
+                            <span>Skillz</span>
+                            <span>Real Money</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.wordblox"
-                                class="btn small-btn" target="_blank">Play Store</a>
-                            <a href="https://apps.apple.com/in/app/wordblox-word-puzzles/id1569467386"
-                                class="btn small-btn github-btn" target="_blank">App Store</a>
+                            <a href="projects.html" class="btn small-btn" target="_blank" rel="noopener">
+                                <i class="fas fa-info-circle"></i> Details
+                            </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- Project 6: Hexa Buzzle -->
-                <div class="project-item">
-                    <img src="images/Project06.png" alt="Hexa Buzzle">
+                <!-- Project 4: Flick Chess -->
+                <div class="project-item reveal">
+                    <div class="img-wrapper">
+                        <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project29.png">
+                            <source src="videos/Project29.mp4" type="video/mp4">
+                        </video>
+                    </div>
                     <div class="project-info">
-                        <h3>Hexa Buzzle</h3>
-                        <!-- <p>An engaging twist on classic block puzzle games featuring 14 levels and over 1,000 puzzles with a relaxing gameplay experience.</p> -->
+                        <h3>Flick Chess</h3>
                         <div class="project-tech">
-                            <span>Unity</span>
-                            <span>C#</span>
-                            <span>2D</span>
+                            <span>3D</span>
                             <span>Puzzle</span>
+                            <span>30M+ Downloads</span>
+                            <span>Super Sonic</span>
                         </div>
                         <div class="project-links">
-                            <a href="https://play.google.com/store/apps/details?id=com.randomlogicgames.hexabuzzle"
-                                class="btn small-btn" target="_blank">Play Store</a>
-                            <a href="https://apps.apple.com/in/app/hexa-buzzle/id1369821512"
-                                class="btn small-btn github-btn" target="_blank">App Store</a>
+                            <a href="https://play.google.com/store/apps/details?id=com.twostar.flickchess"
+                                class="btn small-btn" target="_blank" rel="noopener">
+                                <i class="fab fa-google-play"></i> Play Store
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Pool Pay Day -->
+                <div class="project-item reveal">
+                    <div class="img-wrapper">
+                        <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project4.png">
+                            <source src="videos/Project4.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="project-info">
+                        <h3>Pool Pay Day</h3>
+                        <div class="project-tech">
+                            <span>3D</span>
+                            <span>Multiplayer</span>
+                            <span>Skillz</span>
+                            <span>Real Money</span>
+                            <span>1M+ Downloads</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="projects.html" class="btn small-btn" target="_blank" rel="noopener">
+                                <i class="fas fa-info-circle"></i> Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Hunt Royale -->
+                <div class="project-item reveal">
+                    <div class="img-wrapper">
+                        <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project39.png">
+                            <source src="videos/Project39.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="project-info">
+                        <h3>Hunt Royale</h3>
+                        <div class="project-tech">
+                            <span>3D</span>
+                            <span>Multiplayer</span>
+                            <span>Combat</span>
+                            <span>RPG</span>
+                            <span>PVP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="projects.html" class="btn small-btn" target="_blank" rel="noopener">
+                                <i class="fas fa-info-circle"></i> Details
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="projects-cta">
-                <a href="projects.html" class="btn primary-btn view-all">View All Projects</a>
+                <a href="projects.html" class="btn secondary-btn">
+                    <i class="fas fa-th-large"></i> View All 150+ Projects
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- ========== SERVICES ========== -->
     <section id="services" class="services">
         <div class="container">
-            <div class="section-header">
-                <h2>My Services</h2>
+            <div class="section-header reveal">
+                <h2>Services I Offer</h2>
                 <div class="underline"></div>
+                <p class="section-subtitle">End-to-end game development and interactive experience solutions</p>
             </div>
             <div class="services-grid">
-                <div class="service-item">
+                <div class="service-item reveal">
                     <div class="service-icon">
                         <i class="fas fa-gamepad"></i>
                     </div>
                     <h3>Custom Game Development</h3>
-                    <p>Crafting unforgettable games from scratch, ensuring immersive gameplay experiences tailored
-                        specifically to your audience.</p>
+                    <p>Crafting unforgettable games from scratch — from hyper-casual to complex strategy — ensuring
+                        immersive gameplay experiences tailored to your audience.</p>
                 </div>
-                <div class="service-item">
+                <div class="service-item reveal">
                     <div class="service-icon">
                         <i class="fas fa-vr-cardboard"></i>
                     </div>
                     <h3>AR/VR Development</h3>
-                    <p>Creating immersive augmented and virtual reality experiences for entertainment, education, and
-                        business applications.</p>
+                    <p>Creating immersive augmented and virtual reality experiences for entertainment, education,
+                        training simulations, and enterprise applications.</p>
                 </div>
-                <div class="service-item">
+                <div class="service-item reveal">
                     <div class="service-icon">
                         <i class="fas fa-users"></i>
                     </div>
                     <h3>Multiplayer Games</h3>
-                    <p>Developing robust multiplayer systems using Photon and Mirror to create engaging social gaming
-                        experiences.</p>
+                    <p>Developing robust real-time multiplayer systems using Photon and Mirror to create engaging social
+                        gaming experiences at scale.</p>
                 </div>
-                <div class="service-item">
+                <div class="service-item reveal">
                     <div class="service-icon">
                         <i class="fas fa-mobile-alt"></i>
                     </div>
                     <h3>Mobile Game Development</h3>
-                    <p>Building optimized games for iOS and Android platforms, from hyper-casual to complex strategy
-                        games.</p>
+                    <p>Building optimized, store-ready games for iOS and Android platforms with high performance, smooth
+                        UX, and monetization strategies.</p>
                 </div>
-                <div class="service-item">
+                <div class="service-item reveal">
                     <div class="service-icon">
                         <i class="fas fa-cogs"></i>
                     </div>
                     <h3>Bug Fixing & Optimization</h3>
-                    <p>Meticulously debugging and enhancing your game, ensuring a smooth, top-quality gaming experience.
-                    </p>
+                    <p>Meticulously debugging and performance-tuning your Unity projects — reducing load times, fixing
+                        crashes, and ensuring a smooth experience.</p>
                 </div>
-                <div class="service-item">
+                <div class="service-item reveal">
                     <div class="service-icon">
-                        <i class="fas fa-headset"></i>
+                        <i class="fas fa-robot"></i>
                     </div>
-                    <h3>Consulting & Support</h3>
-                    <p>Providing expert advice and ongoing support to help your gaming projects succeed in the
-                        competitive market.</p>
+                    <h3>AI Integration in Games</h3>
+                    <p>Implementing intelligent NPCs, procedural content generation, and AI-powered gameplay features
+                        that make your game stand out.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials Section -->
+    <!-- ========== MY PROCESS ========== -->
+    <section id="process" class="process-section">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>How I Work</h2>
+                <div class="underline"></div>
+                <p class="section-subtitle">A proven 4-step process that delivers results on time, every time</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-step reveal">
+                    <div class="process-number">01</div>
+                    <div class="process-icon"><i class="fas fa-comments"></i></div>
+                    <h3>Discovery</h3>
+                    <p>I start by understanding your vision, target audience, and project goals. We define the scope,
+                        features, timeline, and milestones together — no surprises.</p>
+                    <div class="process-tags">
+                        <span>Requirements</span>
+                        <span>Scope</span>
+                        <span>Timeline</span>
+                    </div>
+                </div>
+                <div class="process-connector reveal"><i class="fas fa-chevron-right"></i></div>
+                <div class="process-step reveal">
+                    <div class="process-number">02</div>
+                    <div class="process-icon"><i class="fas fa-pencil-ruler"></i></div>
+                    <h3>Prototype</h3>
+                    <p>Before full development, I build a playable prototype or proof-of-concept. This lets you test the
+                        core mechanics and give feedback before we go deeper.</p>
+                    <div class="process-tags">
+                        <span>MVP</span>
+                        <span>Core Mechanics</span>
+                        <span>Feedback</span>
+                    </div>
+                </div>
+                <div class="process-connector reveal"><i class="fas fa-chevron-right"></i></div>
+                <div class="process-step reveal">
+                    <div class="process-number">03</div>
+                    <div class="process-icon"><i class="fas fa-laptop-code"></i></div>
+                    <h3>Development</h3>
+                    <p>I build your project with clean, scalable code — delivering regular builds so you can test
+                        progress. Daily updates and milestone check-ins keep everything on track.</p>
+                    <div class="process-tags">
+                        <span>Clean Code</span>
+                        <span>Daily Updates</span>
+                        <span>Milestones</span>
+                    </div>
+                </div>
+                <div class="process-connector reveal"><i class="fas fa-chevron-right"></i></div>
+                <div class="process-step reveal">
+                    <div class="process-number">04</div>
+                    <div class="process-icon"><i class="fas fa-rocket"></i></div>
+                    <h3>Launch</h3>
+                    <p>I handle final QA, performance optimization, and store submission. Your project launches polished
+                        and store-ready — and I provide post-launch support too.</p>
+                    <div class="process-tags">
+                        <span>QA Testing</span>
+                        <span>Store Ready</span>
+                        <span>Post-Launch</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
     <section id="testimonials" class="testimonials">
         <div class="container">
-            <div class="section-header">
-                <h2>Client Testimonials</h2>
+            <div class="section-header reveal">
+                <h2>Client Reviews</h2>
                 <div class="underline"></div>
-
+                <p class="section-subtitle">What clients say about working with me</p>
             </div>
             <div class="testimonials-slider">
-                <!-- Testimonial 1 -->
-                <div class="testimonial-item">
-                    <div class="quote">
-                        <i class="fas fa-quote-left"></i>
+                <!-- Testimonial 1: $73K Project — strongest social proof, hooks immediately -->
+                <div class="testimonial-item active">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
-                    <p>Riken is <strong>HIGHLY</strong> understanding and works efficiently. His expertise in Unity
-                        development made our project a success. Great work!</p>
+                    <p class="review-text">Riken is one of the best developers I found on Upwork, renowned for his
+                        <strong>unmatched speed, impeccable code, and vast experience</strong>. His ability to deliver
+                        top-tier games quickly, while maintaining clean and efficient code, is unparalleled. Each
+                        release showcases his commitment to excellence and innovation. For my future project, Riken will
+                        be the first person to hear from me.
+                    </p>
                     <div class="client-info">
-                        <div class="client-img">
-                            <span>ES</span>
+                        <div class="client-img"><span>PJ</span></div>
+                        <div class="client-details">
+                            <h4>Private Client — $73,000 Project</h4>
+                            <p>⭐ 5.0 · Committed to Quality · Detail Oriented · Reliable</p>
                         </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2: iOS Game Developer — specific technical praise -->
+                <div class="testimonial-item">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">Riken is a very talented developer who has been helping me bring my mobile
+                        game idea to life. Recently, he helped implement <strong>optimized animations for
+                            characters</strong>, and was willing to go above and beyond. Highly collaborative and
+                        committed to quality.</p>
+                    <div class="client-info">
+                        <div class="client-img"><span>IG</span></div>
+                        <div class="client-details">
+                            <h4>iOS Game Developer — $1,079 Project</h4>
+                            <p>⭐ 5.0 · Collaborative · Committed to Quality · Solution Oriented</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3: Epoxy Studios — shows understanding + efficiency -->
+                <div class="testimonial-item">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">Riken is <strong>HIGHLY</strong> understanding and works efficiently. His
+                        expertise in Unity development made our project a success. Great work!</p>
+                    <div class="client-info">
+                        <div class="client-img"><span>ES</span></div>
                         <div class="client-details">
                             <h4>Epoxy Studios</h4>
-                            <p>Canada</p>
+                            <p>🇨🇦 Canada</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Testimonial 2 -->
+                <!-- Testimonial 4: Kob Games — AR + on time delivery -->
                 <div class="testimonial-item">
-                    <div class="quote">
-                        <i class="fas fa-quote-left"></i>
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
-                    <p>Fantastic developer and wonderful to collaborate with! Riken's understanding of game mechanics
-                        and ability to implement complex features exceeded our expectations.</p>
+                    <p class="review-text">Very professional Unity freelancer, highly recommended! Riken delivered our
+                        AR project on time and with exceptional quality.</p>
                     <div class="client-info">
-                        <div class="client-img">
-                            <span>RL</span>
-                        </div>
-                        <div class="client-details">
-                            <h4>Random Logic Games</h4>
-                            <p>USA</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimonial 3 -->
-                <div class="testimonial-item">
-                    <div class="quote">
-                        <i class="fas fa-quote-left"></i>
-                    </div>
-                    <p>Excellent job fixing the bug in our Unity app! Riken's attention to detail and problem-solving
-                        skills are impressive. Looking forward to future projects.</p>
-                    <div class="client-info">
-                        <div class="client-img">
-                            <span>MP</span>
-                        </div>
-                        <div class="client-details">
-                            <h4>Multimedia Production</h4>
-                            <p>Germany</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimonial 4 -->
-                <div class="testimonial-item">
-                    <div class="quote">
-                        <i class="fas fa-quote-left"></i>
-                    </div>
-                    <p>Very professional Unity freelancer, highly recommended! Riken delivered our AR project on time
-                        and with exceptional quality.</p>
-                    <div class="client-info">
-                        <div class="client-img">
-                            <span>KG</span>
-                        </div>
+                        <div class="client-img"><span>KG</span></div>
                         <div class="client-details">
                             <h4>Kob Games</h4>
-                            <p>United Kingdom</p>
+                            <p>🇬🇧 United Kingdom</p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Testimonial 5 -->
+                <!-- Testimonial 5: Short-term project — addresses feedback objection -->
                 <div class="testimonial-item">
-                    <div class="quote">
-                        <i class="fas fa-quote-left"></i>
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
-                    <p>Riken listens and delivers exactly what you need. His expertise in Unity and AR/VR development is
-                        remarkable. Will definitely hire again!</p>
+                    <p class="review-text">Riken is <strong>HIGHLY understanding</strong> when it comes to feedback and
+                        going back when requested. Works in a timely fashion. Great work done and exactly as asked!</p>
                     <div class="client-info">
-                        <div class="client-img">
-                            <span>JN</span>
+                        <div class="client-img"><span>GD</span></div>
+                        <div class="client-details">
+                            <h4>Short-term Game Project</h4>
+                            <p>⭐ 5.0 · Clear Communicator · Reliable · Committed to Quality</p>
                         </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 6: Random Logic Games — exceeded expectations -->
+                <div class="testimonial-item">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">Fantastic developer and wonderful to collaborate with! Riken's understanding
+                        of game mechanics and ability to implement complex features exceeded our expectations.</p>
+                    <div class="client-info">
+                        <div class="client-img"><span>RL</span></div>
+                        <div class="client-details">
+                            <h4>Random Logic Games</h4>
+                            <p>🇺🇸 USA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 7: Josh Nathanson — loyalty + will hire again -->
+                <div class="testimonial-item">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">Riken listens and delivers exactly what you need. His expertise in Unity and
+                        AR/VR development is remarkable. Will definitely hire again!</p>
+                    <div class="client-info">
+                        <div class="client-img"><span>JN</span></div>
                         <div class="client-details">
                             <h4>Josh Nathanson</h4>
-                            <p>USA</p>
+                            <p>🇺🇸 USA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 8: Multimedia Production — attention to detail -->
+                <div class="testimonial-item">
+                    <div class="quote"><i class="fas fa-quote-left"></i></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">Excellent job fixing the bug in our Unity app! Riken's attention to detail
+                        and problem-solving skills are impressive. Looking forward to future projects.</p>
+                    <div class="client-info">
+                        <div class="client-img"><span>MP</span></div>
+                        <div class="client-details">
+                            <h4>Multimedia Production</h4>
+                            <p>🇩🇪 Germany</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="testimonial-controls">
-                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="prev-btn" aria-label="Previous testimonial"><i class="fas fa-chevron-left"></i></button>
                 <div class="dots">
-                    <span class="dot active" title="Testimonial 1"></span>
-                    <span class="dot" title="Testimonial 2"></span>
-                    <span class="dot" title="Testimonial 3"></span>
-                    <span class="dot" title="Testimonial 4"></span>
-                    <span class="dot" title="Testimonial 5"></span>
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                    <span class="dot" data-index="2"></span>
+                    <span class="dot" data-index="3"></span>
+                    <span class="dot" data-index="4"></span>
+                    <span class="dot" data-index="5"></span>
+                    <span class="dot" data-index="6"></span>
+                    <span class="dot" data-index="7"></span>
                 </div>
-                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                <button class="next-btn" aria-label="Next testimonial"><i class="fas fa-chevron-right"></i></button>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <!-- ========== FAQ ========== -->
+    <section id="faq" class="faq-section">
         <div class="container">
-            <div class="section-header">
-                <h2>Get In Touch</h2>
+            <div class="section-header reveal">
+                <h2>Frequently Asked Questions</h2>
                 <div class="underline"></div>
+                <p class="section-subtitle">Quick answers to common questions about working with me</p>
             </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's work together</h3>
-                    <p>Ready to transform your gaming vision into reality? I'm currently available for freelance work.
-                        If you have a project that needs some creative touch, I'd love to hear about it.</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <span>Email address hidden for portfolio demo</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <span>Phone number hidden for portfolio demo</span>
-                        </div>
-                        <div class="contact-item">
-                            <i class="fas fa-map-marker-alt"></i>
-                            <span>Available for Remote Work</span>
-                        </div>
+            <div class="faq-grid reveal">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What platforms do you develop for?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I develop for <strong>iOS, Android, Windows, Mac, WebGL, Meta Quest (VR), and Web3</strong>.
+                            Most of my projects are built in Unity, which allows me to deploy across all major platforms
+                            from a single codebase. I also handle store submissions for Google Play and the App Store.
+                        </p>
                     </div>
                 </div>
-                <div class="contact-form">
-                    <form id="contactForm">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn primary-btn">Send Message</button>
-                    </form>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What is your typical project timeline?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>It depends on complexity. A hyper-casual game takes <strong>2-4 weeks</strong>, a
+                            mid-complexity game with multiplayer takes <strong>6-12 weeks</strong>, and a full AR/VR
+                            experience can take <strong>8-16 weeks</strong>. I always define milestones upfront so you
+                            know exactly where the project stands.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do you handle game design or just development?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Both. I can take a rough concept and turn it into a fully designed game — including
+                            mechanics, level design, UI/UX, monetization strategy, and the complete technical build. If
+                            you already have a GDD, I can work from that too.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do you provide source code and documentation?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p><strong>Yes, always.</strong> You get the complete Unity project with clean, well-commented
+                            source code. I also provide a handoff document covering architecture, setup instructions,
+                            and any third-party dependencies so your team can maintain and extend the project.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Can you work with my existing Unity project?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. I regularly take over existing projects for bug fixing, feature additions,
+                            optimization, or major overhauls. I'll start with a codebase audit to understand the
+                            architecture before making any changes.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>How do you handle communication and updates?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I provide <strong>daily progress updates</strong> with screenshots or video demos. I'm
+                            available on Upwork chat, Slack, or Discord during overlapping hours. For milestone reviews,
+                            I send playable builds so you can test hands-on.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do you handle app store publishing?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes. I handle the full publishing pipeline — creating store listings, generating screenshots,
+                            configuring app signing, setting up in-app purchases, and submitting to both <strong>Google
+                                Play and the Apple App Store</strong>. I'll also handle any review rejections.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What about post-launch support and maintenance?</span>
+                        <i class="fas fa-chevron-down faq-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>I offer post-launch support for bug fixes, performance updates, and feature additions. Many
+                            of my clients have worked with me for <strong>years across multiple projects</strong>. I'm
+                            always available for ongoing collaboration.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- ========== CTA BANNER ========== -->
+    <section id="contact-cta" class="cta-banner">
+        <div class="container">
+            <h2>Ready to Build Something <span class="gradient-text">Amazing</span>?</h2>
+            <p>Let's turn your vision into a polished, high-quality game or interactive experience.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn secondary-btn">
+                    <i class="fas fa-eye"></i> See My Work
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo">
-                    <h2>Riken <span>Sonani</span></h2>
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <h2>Riken <span>Sonani</span></h2>
+                    </div>
+                    <p>Senior Unity Game Developer & AR/VR Expert. Top Rated Plus freelancer with 150+ projects and
+                        10,000+ hours of professional experience.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/rikenfree" target="_blank" rel="noopener"
+                            aria-label="GitHub Profile">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="footer-links">
-                    <a href="#home">Home</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#services">Services</a>
-                    <a href="#testimonials">Testimonials</a>
+
+                <div class="footer-links-section">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links-list">
+                        <a href="#home">Home</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#services">Services</a>
+                        <a href="#testimonials">Reviews</a>
+                    </div>
+                </div>
+
+                <div class="footer-links-section">
+                    <h4>Services</h4>
+                    <div class="footer-links-list">
+                        <a href="#services">Game Development</a>
+                        <a href="#services">AR/VR Development</a>
+                        <a href="#services">Multiplayer Games</a>
+                        <a href="#services">Mobile Games</a>
+                        <a href="#services">AI Integration</a>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Riken Sonani. All Rights Reserved.</p>
+                <p>&copy; 2026 Riken Sonani. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Back to Top Button -->
-    <a href="#home" class="back-to-top">
+    <!-- Back to Top -->
+    <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
         <i class="fas fa-arrow-up"></i>
     </a>
 
     <!-- JavaScript -->
     <script src="js/main.js"></script>
-    <script src="js/testimonials.js"></script>
 </body>
 
 </html>

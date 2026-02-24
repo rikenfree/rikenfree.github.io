@@ -4,16 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Riken Sonani - All Projects</title>
+    <title>All Projects — Riken Sonani | 150+ Games, AR/VR & Mobile Apps</title>
+    <meta name="description"
+        content="Browse 150+ projects by Riken Sonani — Unity games, AR/VR experiences, mobile apps, multiplayer games, and more.">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
     <!-- Header -->
-    <header>
+    <header id="header">
         <div class="container">
             <div class="header-profile">
                 <div class="profile-image">
@@ -26,14 +31,14 @@
                 </div>
             </div>
             <nav>
-                <ul class="nav-links">
+                <ul class="nav-links" id="navLinks">
                     <li><a href="index.html#home">Home</a></li>
                     <li><a href="index.html#skills">Skills</a></li>
                     <li><a href="index.html#projects" class="active">Projects</a></li>
                     <li><a href="index.html#services">Services</a></li>
-                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="index.html#testimonials">Reviews</a></li>
                 </ul>
-                <div class="hamburger">
+                <div class="hamburger" id="hamburger">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -97,7 +102,7 @@
                 <div class="project-item casino card multiplayer">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project1.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project1.png">
                                 <source src="videos/Project1.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -123,12 +128,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">Poker Pay Day is a fast-paced, multiplayer card battle game where
-                            players strategically select the highest-scoring pairs
-                            to outplay opponents. With real-time matchmaking, exciting grand reward mechanics, and clean
-                            card-based gameplay, this
-                            project showcases my ability to blend competitive multiplayer systems with classic
-                            poker-inspired logic.</p>
+                        <p class="project-description">Built a real-time multiplayer card battle game from scratch — players compete head-to-head by selecting the highest-scoring poker pairs under pressure. I designed the matchmaking system, grand reward mechanics, and the entire competitive loop. This project pushed me to build tight multiplayer sync with zero-lag card interactions.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -151,7 +151,7 @@
                 <div class="project-item hypercasual puzzle">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project2.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project2.png">
                                 <source src="videos/Project2.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -177,9 +177,7 @@
                                 <span class="status-live">Live</span>
                             </div>
                         </div>
-                        <p class="project-description">Draw a single line to protect the dog from angry bees! Use your
-                            creativity and timing to shield the dog and survive each level and Use your brain power and
-                            logic to pass the level.</p>
+                        <p class="project-description">Developed a line-drawing puzzle game that went live on both stores. Players draw a shield to protect a dog from incoming bees — sounds simple, but I built a custom physics-based line renderer, collision detection for freeform shapes, and over 100 hand-tuned levels that ramp up in difficulty.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -203,7 +201,7 @@
                 <div class="project-item puzzle casual educational">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project3.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project3.png">
                                 <source src="videos/Project3.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -229,10 +227,7 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">Word Blox — a fun and brain-boosting puzzle game where players
-                            connect scattered letter blocks to form meaningful words.
-                            Simple to play, yet tricky to master, it’s the perfect blend of vocabulary training and
-                            logical thinking.</p>
+                        <p class="project-description">Designed and shipped a word puzzle game where players connect scattered letter blocks to form words on a grid. I built the custom word validation engine, hint system, and a content pipeline that supports thousands of unique puzzles. Live on both App Store and Google Play.</p>
                         <!-- 
                         <div class="project-features">
                             <h4>Key Features:</h4>
@@ -268,7 +263,8 @@
                 <div class="project-item game arvr">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/VRProject3.png">
+                            <video loop muted playsinline preload="none" data-lazy="true"
+                                poster="images/VRProject3.png">
                                 <source src="videos/VRProject3.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -298,11 +294,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A professional-grade VR tennis simulator built for authentic
-                            athletic training. The project features a physics-based engine that replicates real-world
-                            ball-racket interactions, allowing players to refine swings and footwork in an immersive
-                            stadium. It includes a customizable ball machine with a "Spatial Panel" to precisely adjust
-                            speed, spin, and frequency for targeted practice drills..</p>
+                        <p class="project-description">Built a professional VR tennis simulator for athletic training on Meta Quest. I developed a custom physics engine that replicates realistic ball-racket interactions including spin, speed, and trajectory. The highlight is a "Spatial Panel" UI — a floating VR control panel that lets players fine-tune the ball machine for targeted practice drills.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -316,7 +308,7 @@
                 <div class="project-item game casino simulation">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project4.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project4.png">
                                 <source src="videos/Project4.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -346,9 +338,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A realistic pool game with intuitive and precise cue controls and
-                            real-time physics. Compete in 1v1 matches against other players, earn rewards, and climb the
-                            leaderboards.</p>
+                        <p class="project-description">Engineered a realistic 3D pool game with precision cue controls and real-time ball physics. I built the entire multiplayer 1v1 system with matchmaking, a rewards economy, and a ranked leaderboard — all optimized for smooth 60fps gameplay on mobile devices.</p>
                         <!-- 
                         <div class="project-features">
                             <h4>Key Features:</h4>
@@ -383,7 +373,7 @@
                 <div class="project-item game multiplayer casual">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project5.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project5.png">
                                 <source src="videos/Project5.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -413,9 +403,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A physics-based fighting game where pigs battle each other in
-                            fun, chaotic arenas. Features both online and offline multiplayer modes with five unique pig
-                            characters, each with different abilities.</p>
+                        <p class="project-description">Created a physics-driven multiplayer fighting game with both online and offline modes. I designed five unique characters, each with distinct abilities and physics profiles, plus a ragdoll combat system that makes every fight feel chaotic and fun.</p>
                         <!-- 
                         <div class="project-features">
                             <h4>Key Features:</h4>
@@ -450,7 +438,7 @@
                 <div class="project-item puzzle casual">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project06.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project06.png">
                                 <source src="videos/Project6.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -480,11 +468,7 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">A relaxing yet challenging block puzzle game where players fit
-                            hexagon pieces into a grid to complete shapes. With
-                            smooth drag-and-drop mechanics and hundreds of brain-teasing levels, Hexa Puzzle is perfect
-                            for players who love
-                            geometric logic and satisfying gameplay.</p>
+                        <p class="project-description">Shipped a hexagonal block puzzle game to both stores with hundreds of brain-teasing levels. I built smooth drag-and-drop mechanics, a procedural level generator, and a satisfying snap-into-place system that keeps players coming back. Still live and generating downloads.</p>
                         <!-- 
                         <div class="project-features">
                             <h4>Key Features:</h4>
@@ -521,7 +505,7 @@
                 <div class="project-item game casual hypercasual simulation">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project7.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project7.png">
                                 <source src="videos/Project7.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -551,9 +535,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A strategic merge game where players combine identical warriors
-                            to evolve them into stronger units. Place your units, merge them smartly, and watch them
-                            battle automatically in this idle strategy game.</p>
+                        <p class="project-description">Built an idle strategy game where players merge identical warriors into more powerful units that auto-battle enemies. I developed the merge grid system, unit evolution tree, and the entire auto-battler AI — balancing progression, difficulty curves, and retention mechanics.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -576,7 +558,7 @@
                 <div class="project-item mobile educational">
                     <div class="project-media" data-resolution="1920x1080">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project8.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project8.png">
                                 <source src="videos/Project8.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -606,9 +588,7 @@
                                 <span class="status-live">Live</span>
                             </div>
                         </div>
-                        <p class="project-description">An educational game designed for children aged 4-10 to learn
-                            basic math operations through fun-based mini-games. Features colorful graphics, audio
-                            feedback, and progressive difficulty levels.</p>
+                        <p class="project-description">Designed and developed an educational math game for children aged 4-10, currently live on Google Play. I created multiple interactive mini-games covering addition, subtraction, multiplication, and division — with audio feedback, colorful animations, and adaptive difficulty that adjusts to the child's learning pace.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -629,7 +609,7 @@
                 <div class="project-item game card">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project9.jpeg">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project9.jpeg">
                                 <source src="videos/Project9.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -659,9 +639,7 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">A classic Spider Solitaire game with multiple suit options,
-                            unlimited undos, auto-complete function, and customizable settings. Perfect for card game
-                            enthusiasts of all skill levels.</p>
+                        <p class="project-description">Rebuilt the classic Spider Solitaire experience with multiple suit modes, unlimited undo, smart auto-complete, and customizable themes. Live on both stores, this project showcases clean UI/UX design and polished card animation systems I built from the ground up.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -686,7 +664,8 @@
                 <div class="project-item puzzle educational puzzle">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project10.jpeg">
+                            <video loop muted playsinline preload="none" data-lazy="true"
+                                poster="images/Project10.jpeg">
                                 <source src="videos/Project10.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -716,9 +695,7 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">An anagram-based word game that combines unscrambling jumbled
-                            letters with a crossword-style grid. Features daily challenges, progressive difficulty, and
-                            offline play support.</p>
+                        <p class="project-description">Developed a word puzzle game combining anagram solving with crossword-style grids. I built a daily challenge system, progressive difficulty engine, and full offline support — everything runs locally with no server dependency. Live on both stores with active players.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -743,7 +720,7 @@
                 <div class="project-item mobile educational puzzle">
                     <div class="project-media" data-resolution="1920x1080">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project11.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project11.png">
                                 <source src="videos/Project11.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -773,9 +750,7 @@
                                 <span class="status-live">Live</span>
                             </div>
                         </div>
-                        <p class="project-description">A fun and educational matching game designed to help kids learn
-                            while having fun. Features multiple learning categories including alphabets, numbers,
-                            colors, and more with interactive audio support.</p>
+                        <p class="project-description">Built an educational matching game for preschool-age kids covering alphabets, numbers, colors, and shapes. I implemented interactive audio cues, vibrant animations, and a kid-safe interface — no ads, no in-app purchases, just learning. Live on Google Play.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">Educational</span>
@@ -796,7 +771,7 @@
                 <div class="project-item game card simulation multiplayer">
                     <div class="project-media" data-resolution="1920x1080">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project12.jpg">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project12.jpg">
                                 <source src="videos/Project12.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -826,9 +801,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A multiplayer card racing game that combines strategy and luck.
-                            Challenge friends or players worldwide in intense, strategic matches with customizable rules
-                            and dynamic game boards.</p>
+                        <p class="project-description">Developed a unique multiplayer card racing game that blends strategy with luck. I built the entire networking layer for real-time matches, customizable rule sets, and dynamic board generation — letting players challenge friends or opponents worldwide.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -851,7 +824,7 @@
                 <div class="project-item game casual simulation">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project13.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project13.png">
                                 <source src="videos/Project13.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -881,9 +854,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A relaxing fishing game with simple tap-to-cast mechanics. Catch
-                            a variety of fish species, upgrade your gear, and explore beautiful fishing spots in this
-                            addictive casual game.</p>
+                        <p class="project-description">Created a 3D fishing simulation with tap-to-cast mechanics, realistic water physics, and a gear upgrade system. I modeled multiple fish species with unique behaviors and built beautiful fishing environments — a polished casual game that balances relaxation with progression.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -905,7 +876,8 @@
                 <div class="project-item game arvr">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/VRProject1.png">
+                            <video loop muted playsinline preload="none" data-lazy="true"
+                                poster="images/VRProject1.png">
                                 <source src="videos/VRProject1.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -935,10 +907,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A hands-on VR training experience designed to teach users how to
-                            interact with various objects and user interface elements in a virtual environment. Learn
-                            core VR interactions such as grabbing, pressing, dragging, rotating, and navigating menus,
-                            while practicing real-world scenarios in an immersive and intuitive way.</p>
+                        <p class="project-description">Built an interactive VR training room for Meta Quest that teaches core VR interactions — grabbing, pressing, dragging, rotating, and menu navigation. I developed the entire interaction framework from scratch using OpenXR, designed to onboard new VR users through guided, hands-on practice scenarios.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -959,7 +928,7 @@
                 <div class="project-item game hypercasual simulation">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project14.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project14.png">
                                 <source src="videos/Project14.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -989,9 +958,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A gravity-defying arcade action game where you control a falling
-                            spaceship as it descends through obstacles and platforms. Test your reflexes and timing with
-                            smooth, responsive controls.</p>
+                        <p class="project-description">Built a gravity-based arcade game where players control a falling spaceship through dynamic obstacles. I focused heavily on game feel — responsive controls, smooth camera follow, and satisfying physics that make the simple mechanic genuinely fun to play.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1014,7 +981,7 @@
                 <div class="project-item puzzle hypercasual puzzle ">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project15.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project15.png">
                                 <source src="videos/Project15.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1044,9 +1011,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A brain-training puzzle game where you strategically move and
-                            unblock buses stuck in traffic jams. Features hundreds of challenging puzzles designed to
-                            improve logic and planning skills.</p>
+                        <p class="project-description">Developed a 3D traffic puzzle game where players strategically unblock jammed buses. I designed hundreds of hand-crafted puzzles with escalating complexity, plus a custom pathfinding system that validates player solutions in real-time.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1069,7 +1034,7 @@
                 <!-- <div class="project-item mobile educational puzzle">
                     <div class="project-media" data-resolution="1920x1080">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/BrainPad.jpg">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/BrainPad.jpg">
                                 <source src="videos/Project16.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1122,7 +1087,8 @@
                 <div class="project-item game hypercasual simulation  shooter">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project17.jpeg">
+                            <video loop muted playsinline preload="none" data-lazy="true"
+                                poster="images/Project17.jpeg">
                                 <source src="videos/Project17.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1152,9 +1118,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">An action-packed shooting game where you defend your territory
-                            against waves of monstrous alien creatures. Features fast-paced gameplay, powerful weapons,
-                            and colorful visuals.</p>
+                        <p class="project-description">Created a wave-based arcade shooter where players defend against increasingly tough alien creatures. I built the enemy wave spawning system, weapon upgrade tree, and difficulty scaling — delivering fast-paced action with satisfying visual feedback.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1173,7 +1137,8 @@
                 <div class="project-item game arvr">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/VRProject2.png">
+                            <video loop muted playsinline preload="none" data-lazy="true"
+                                poster="images/VRProject2.png">
                                 <source src="videos/VRProject2.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1203,12 +1168,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">"Operation Theater VR" is an immersive training experience
-                            designed to teach users how to navigate a clinical surgical setting. Users learn core
-                            medical interactions—such as positioning, tool selection, and following procedural
-                            prompts—while practicing real-world scenarios in an intuitive way. By utilizing Unity and
-                            OpenXR, the project delivers a professional-grade simulation that focuses on accuracy,
-                            safety, and repeatable learning.</p>
+                        <p class="project-description">Developed a professional VR medical training simulation for Meta Quest. Users learn surgical procedures — tool selection, patient positioning, and procedural steps — in a realistic operating room environment. I built the entire interaction system using OpenXR, focusing on accuracy, safety protocols, and repeatable training scenarios.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1222,7 +1182,7 @@
                 <div class="project-item game simulation shooter">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project18.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project18.png">
                                 <source src="videos/Project18.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1252,9 +1212,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A strategic battle simulator where you command an ever-growing
-                            army across vast lands, facing off against swarms of enemies and powerful bosses. Every
-                            decision counts in this epic-scale war game.</p>
+                        <p class="project-description">Built a large-scale battle simulator where players command growing armies across vast battlefields. I optimized the rendering pipeline to handle 1000+ on-screen units simultaneously, while designing boss fights, unit progression, and strategic decision-making systems.</p>
                         <!-- 
                         <div class="project-features">
                             <h4>Key Features:</h4>
@@ -1289,7 +1247,7 @@
                 <div class="project-item puzzle casual puzzle">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project19.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project19.png">
                                 <source src="videos/Project19.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1319,9 +1277,7 @@
                                 <span class="status-live">Live</span>
                             </div>
                         </div>
-                        <p class="project-description">A challenging puzzle game with over 100 handcrafted puzzles that
-                            gradually increase in difficulty. Each level presents a unique spatial challenge using
-                            colorful geometric pieces, inspired by kaleidoscope art.</p>
+                        <p class="project-description">Shipped a puzzle game with 100+ handcrafted levels featuring colorful geometric pieces inspired by kaleidoscope art. I developed the piece rotation system, snap detection logic, and progressive difficulty curve — currently live on Google Play with positive reviews.</p>
                         <!-- 
                         <div class="project-features">
                             <h4>Key Features:</h4>
@@ -1354,7 +1310,7 @@
                 <div class="project-item puzzle casual puzzle">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project20.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project20.png">
                                 <source src="videos/project20.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1384,9 +1340,7 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">An immersive 3D matching game where you find and sort pairs of
-                            colorful 3D objects. Features a wide collection of items to unlock and explore with
-                            time-based multipliers for added challenge.</p>
+                        <p class="project-description">Built an immersive 3D matching game where players find and sort pairs of colorful objects from a scattered pile. I created the 3D object recognition system, time-based scoring multipliers, and a content pipeline of hundreds of unique items. Live on both App Store and Google Play.</p>
                         <!-- 
                         <div class="project-features">
                             <h4>Key Features:</h4>
@@ -1423,7 +1377,8 @@
                 <div class="project-item game arvr">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/VRProject4.png">
+                            <video loop muted playsinline preload="none" data-lazy="true"
+                                poster="images/VRProject4.png">
                                 <source src="videos/VRProject4.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1453,11 +1408,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">This project is a hands-on VR training and simulation experience.
-                            It is designed to teach users how to interact with complex machinery and user interface
-                            elements in a virtual environment. Players practice core VR interactions—including grabbing,
-                            pressing, dragging, and rotating—while navigating through a multi-room submarine layout to
-                            complete specific maintenance and operational scenarios.</p>
+                        <p class="project-description">Developed a VR submarine training simulator for Meta Quest where users navigate multi-room layouts and interact with complex machinery. I built the entire interaction system — grab, press, drag, rotate — along with maintenance scenarios and operational checklists, delivering a professional-grade training tool.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1473,7 +1424,7 @@
                 <div class="project-item game hypercasual simulation">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project21.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project21.png">
                                 <source src="videos/Project21.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1503,9 +1454,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A modern take on the classic snake game featuring smooth
-                            swipe-based controls, snake evolution, and competitive gameplay. Watch your snake grow as
-                            you eat and eliminate other players.</p>
+                        <p class="project-description">Reimagined the classic snake game with modern swipe controls, a snake evolution system, and competitive arena gameplay. I built smooth AI opponents, a growth-and-elimination loop, and power-up mechanics that keep sessions fast and addictive.</p>
                         <!-- 
                         <div class="project-features">
                             <h4>Key Features:</h4>
@@ -1537,7 +1486,7 @@
                 <div class="project-item mobile simulation casual">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project22.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project22.png">
                                 <source src="videos/Project22.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1567,9 +1516,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A relaxing salon simulator where you run your own foot spa salon.
-                            Clean, scrub, massage, and decorate feet with satisfying animations and build your beauty
-                            empire.</p>
+                        <p class="project-description">Developed a 3D salon simulator where players build and manage their own foot spa empire. I created the multi-step treatment system — cleaning, scrubbing, massaging, decorating — with satisfying ASMR-style animations and a business growth progression system.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1589,7 +1536,7 @@
                 <div class="project-item game hypercasual simulation">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project23.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project23.png">
                                 <source src="videos/Project23.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1619,9 +1566,7 @@
                                 <span class="status-live">Live On Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">A fast-paced endless runner where you swipe or tap to dodge,
-                            jump, and slide through urban obstacles. Features endless replayability, challenging
-                            obstacles, and stylish visuals.</p>
+                        <p class="project-description">Built a fast-paced 3D endless runner with swipe-based controls set in stylish urban environments. I designed the obstacle generation system, progressive difficulty scaling, and polished the game feel to deliver addictive one-more-run gameplay. Live on Google Play.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1645,7 +1590,7 @@
                 <div class="project-item game hypercasual simulation">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project24.jpg">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project24.jpg">
                                 <source src="videos/Project24.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1675,9 +1620,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A creative runner game where you shape and sculpt objects while
-                            running through colorful obstacle-filled tracks. Use various sculpting tools like cutters,
-                            chisels, and rollers to mold your path to victory.</p>
+                        <p class="project-description">Created a unique hybrid runner game where players sculpt and shape objects while running through obstacle courses. I built a real-time mesh deformation system using cutters, chisels, and rollers — a technically challenging mechanic that makes every run feel creative and different.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1698,7 +1641,8 @@
                 <div class="project-item game arvr">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/VRProject5.png">
+                            <video loop muted playsinline preload="none" data-lazy="true"
+                                poster="images/VRProject5.png">
                                 <source src="videos/VRProject5.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1728,10 +1672,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">This is a technical demonstration of a VR project focused on
-                            traversal and environmental interaction. Set in a low-poly stylized outdoor environment with
-                            floating islands, a large mountain, and a sea, the demo serves as a sandbox to test core
-                            gameplay mechanics.</p>
+                        <p class="project-description">Built a VR exploration demo for Meta Quest featuring traversal and environmental interaction across floating islands, mountains, and seas. I used low-poly stylized art direction and developed the core locomotion and interaction systems — a sandbox proving ground for VR gameplay mechanics.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1746,7 +1687,7 @@
                 <div class="project-item puzzle casual puzzle">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project25.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project25.png">
                                 <source src="videos/Project25.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1776,9 +1717,7 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">A vast collection of maze puzzles with six levels of difficulty,
-                            each containing hundreds of custom-created mazes. Navigate through the labyrinths by swiping
-                            in the desired direction and collect orbs along the way.</p>
+                        <p class="project-description">Shipped a maze puzzle game with six difficulty tiers and hundreds of procedurally-assisted mazes. I built the maze generation algorithm, swipe-based navigation system, and collectible orb mechanics. Live on both stores with a loyal player base.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1803,7 +1742,7 @@
                 <div class="project-item game hypercasual simulation  shooter">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project26.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project26.png">
                                 <source src="videos/Project26.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1833,9 +1772,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A fast-paced runner action game where you dash forward while
-                            shooting enemies and dodging obstacles. Take down enemies with precision while staying on
-                            the move in this thrilling hybrid of runner and shooter gameplay.</p>
+                        <p class="project-description">Developed a runner-shooter hybrid where players dash forward while gunning down enemies and dodging obstacles. I built the dual-input control system — running and shooting simultaneously — plus enemy wave patterns and weapon feel that make every session intense.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1855,7 +1792,7 @@
                 <div class="project-item puzzle casual puzzle">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project27.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project27.png">
                                 <source src="videos/Project27.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1909,7 +1846,7 @@
                 <div class="project-item game hypercasual ">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project28.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project28.png">
                                 <source src="videos/Project28.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1939,9 +1876,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">An endless vertical runner game where you climb higher and higher
-                            while avoiding traps, enemies, and obstacles. Test your reflexes on shifting, collapsing,
-                            and tricky platforms that keep the gameplay exciting and unpredictable.</p>
+                        <p class="project-description">Created a vertical climb arcade game with shifting, collapsing, and trick platforms that keep players on edge. I designed the procedural platform generation system and added dynamic hazards that make every run feel unique and unpredictable.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -1961,7 +1896,7 @@
                 <div class="project-item game simulation casual">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project29.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project29.png">
                                 <source src="videos/Project29.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -1991,9 +1926,7 @@
                                 <span class="status-live">Live On Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">A physics-based chess game where you flick chess pieces to knock
-                            out opponents instead of following traditional moves. It's all about angles, momentum, and
-                            timing in fast, skill-based battles.</p>
+                        <p class="project-description">Reinvented chess as a physics-based flicking game — players flick 3D chess pieces to knock out opponents. I built the entire physics interaction system including angle calculation, momentum transfer, and collision detection, creating a fresh competitive experience. Live on Google Play.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -2019,7 +1952,7 @@
                 <div class="project-item puzzle hypercasual puzzle ">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project30.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project30.png">
                                 <source src="videos/Project30.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -2049,9 +1982,7 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">A dynamic 3D matching game where you find and match identical 3D
-                            objects from a scattered pile before time runs out. Features hundreds of unique and colorful
-                            items with time-limited challenges.</p>
+                        <p class="project-description">Developed a 3D object matching game where players race against the clock to pair identical items from a scattered pile. I built the 3D object selection system, time-pressure scoring, and a library of hundreds of unique collectible items. Live on Google Play.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -2072,7 +2003,8 @@
                 <div class="project-item game arvr">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/VRProject6.png">
+                            <video loop muted playsinline preload="none" data-lazy="true"
+                                poster="images/VRProject6.png">
                                 <source src="videos/VRProject6.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -2102,11 +2034,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">Movie Theater VR is an immersive virtual reality media hub
-                            designed to transform any digital content into a cinematic experience. Built for
-                            next-generation spatial computing, this project focuses on an intuitive, gesture-based
-                            interface that allows users to manage their media library within a minimalist,
-                            distraction-free 3D environment.</p>
+                        <p class="project-description">Built a VR movie theater experience for Meta Quest that transforms any video content into a cinematic experience. I developed the gesture-based media browser, spatial UI for library management, and a distraction-free 3D cinema environment — a showcase of next-gen spatial computing interfaces.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -2122,7 +2050,7 @@
                 <div class="project-item puzzle hypercasual multiplayer sports ">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project31.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project31.png">
                                 <source src="videos/Project31.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -2152,11 +2080,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">Tee off in fast-paced 1v1 golf battles! Master timing, aim, and
-                            spin in stunning courses around the world. Upgrade your
-                            clubs, unlock powerful balls, and compete in real-time tournaments. Easy to play,
-                            challenging to master—Golf Clash is
-                            the ultimate golf showdown!</p>
+                        <p class="project-description">Built a 1v1 multiplayer golf game with real-time competitive play across beautifully designed courses. I developed the shot mechanics — timing, aim, and spin controls — along with club upgrades, ball unlocks, and tournament matchmaking. Designed to be easy to pick up but difficult to master.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -2171,7 +2095,7 @@
                 <div class="project-item web3 casino multiplayer">
                     <div class="project-media" data-resolution="1920x1080">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project32.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project32.png">
                                 <source src="videos/Project32.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -2201,11 +2125,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A visually rich, fast-paced spin wheel game designed for casual
-                            casino lovers. Players enjoy vibrant animations, smooth
-                            gameplay, and exciting rewards with every spin. Perfectly optimized for mobile devices, this
-                            game captures the thrill of
-                            classic Vegas-style spinning in a sleek modern interface.</p>
+                        <p class="project-description">Developed a WebGL-based casino roulette game with rich animations and a Vegas-style visual experience. I built the spin physics, reward distribution system, and optimized the WebGL rendering pipeline for smooth performance directly in the browser.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -2220,7 +2140,7 @@
                 <div class="project-item web3 casino multiplayer">
                     <div class="project-media" data-resolution="1920x1080">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project33.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project33.png">
                                 <source src="videos/Project33.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -2250,10 +2170,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">Experience the thrill of Vegas in your pocket! Casino Slot
-                            Machine features lively reels, rich graphics, and exciting
-                            spin animations that keep players coming back for more. Perfect for casual play with a real
-                            slot machine feel.</p>
+                        <p class="project-description">Created a slot machine game with realistic reel mechanics, rich visual effects, and a reward loop that keeps players engaged. I built the RNG-based payout system, multiple reel configurations, and deployed across Web3 and Android platforms.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -2268,7 +2185,7 @@
                 <div class="project-item puzzle hypercasual multiplayer shooter ">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project34.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project34.png">
                                 <source src="videos/Project34.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -2298,11 +2215,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A fast-paced multiplayer battle game where two armies clash in
-                            real-time! Players must defend their side while
-                            strategically deploying warriors to overpower the enemy. Designed for thrilling PvP action,
-                            We Are Warrior blends tower
-                            defense with head-to-head combat in an intense and stylish battlefield.</p>
+                        <p class="project-description">Developed a real-time PvP tower defense game where two armies clash on a shared battlefield. I built the warrior deployment system, real-time multiplayer sync, and strategic unit balancing — blending tower defense mechanics with head-to-head competitive action.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -2318,7 +2231,7 @@
                 <div class="project-item puzzle casual educational ">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project35.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project35.png">
                                 <source src="videos/Project35.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -2348,11 +2261,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">Unleash your creativity in Color Therapy – a soothing coloring
-                            game where players fill in beautifully outlined images
-                            with vibrant colors. From relaxing mandalas to cute animals, it's the perfect blend of
-                            mindfulness and artistic
-                            expression.</p>
+                        <p class="project-description">Built a digital coloring book app with hundreds of beautifully outlined images — mandalas, animals, patterns, and more. I developed the flood-fill algorithm, custom color palette system, and zoom-and-pan controls that make coloring on mobile feel natural and therapeutic.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -2368,7 +2277,7 @@
                 <div class="project-item  web3 multiplayer card">
                     <div class="project-media" data-resolution="1920x1080">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project36.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project36.png">
                                 <source src="videos/Project36.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -2398,11 +2307,7 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">NFTDUEL is a cutting-edge Web3 trading card game where players
-                            collect NFT-powered cards, build strategic decks, and
-                            battle in real-time multiplayer arenas. Featuring anime-inspired IPs and cross-platform
-                            support, the game blends the
-                            thrill of classic TCGs with blockchain-backed ownership and reward systems.</p>
+                        <p class="project-description">Contributed to a Web3 trading card game where players collect NFT-backed cards, build strategic decks, and battle in real-time multiplayer arenas. I worked on cross-platform deployment (Web3, Android, iOS), blockchain wallet integration, and the real-time multiplayer battle system. Live on Google Play.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -2428,7 +2333,7 @@
                 <div class="project-item  web3 multiplayer">
                     <div class="project-media" data-resolution="1920x1080">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project37.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project37.png">
                                 <source src="videos/Project37.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -2458,11 +2363,7 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">A thrilling multiplayer chase game set in the immersive XANA
-                            metaverse. Players compete as runners or hunters in
-                            fast-paced, time-based missions that blend real-time action with strategic movement, avatar
-                            customization, and
-                            Web3-enabled environments.</p>
+                        <p class="project-description">Developed a multiplayer chase game for the XANA metaverse where players compete as runners or hunters in time-based missions. I built the real-time movement sync, avatar customization pipeline, and Web3 integration — delivering a cross-platform experience across mobile and browser.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -2489,7 +2390,7 @@
                 <div class="project-item  web3 multiplayer simulation">
                     <div class="project-media" data-resolution="1920x1080">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project38.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project38.png">
                                 <source src="videos/Project38.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -2519,11 +2420,7 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">A 3D metaverse platform that lets users explore virtual worlds,
-                            attend events, customize avatars, and interact in
-                            real-time multiplayer environments. Built with Web3 features, XANA supports digital
-                            ownership, social engagement, and
-                            immersive experiences.</p>
+                        <p class="project-description">Contributed to XANA, a full-scale 3D metaverse platform supporting virtual world exploration, live events, avatar customization, and real-time multiplayer interaction. I worked on core gameplay systems, NFT integration, and cross-platform optimization for Web3, Android, and iOS. Live on all major platforms.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -2551,7 +2448,7 @@
                 <div class="project-item  multiplayer action shooter">
                     <div class="project-media" data-resolution="1920x1080">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project39.png">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project39.png">
                                 <source src="videos/Project39.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -2581,9 +2478,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">A multiplayer action game where players battle in real-time
-                            teams, collect healing points, and eliminate opponents in a fast-paced warzone. Hunt Royale
-                            delivers thrilling combat with strategic team play and dynamic battlefield action.</p>
+                        <p class="project-description">Built a real-time team-based multiplayer action game where players battle in warzones, collect healing drops, and eliminate opponents. I developed the team matchmaking system, dynamic battlefield mechanics, and optimized netcode for lag-free competitive play on mobile.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -2608,7 +2503,7 @@
                 <div class="project-item game card ">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project40.jpg">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project40.jpg">
                                 <source src="videos/Project40.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -2638,10 +2533,7 @@
                                 <span class="status-live">Live on Stores</span>
                             </div>
                         </div>
-                        <p class="project-description">Players start with a shuffled deck and aim to stack cards in
-                            ascending order by suit, using classic solitaire mechanics. With intuitive drag-and-drop
-                            controls, undo options, and endless reshuffling, Solitaire Infinite offers a smooth,
-                            relaxing experience for casual players and card game enthusiasts alike</p>
+                        <p class="project-description">Shipped a polished Klondike solitaire game with intuitive drag-and-drop, unlimited undo, and endless reshuffling. I focused on smooth card animations, responsive touch controls, and a clean UI that appeals to both casual players and card game enthusiasts. Live on both stores.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -2666,7 +2558,8 @@
                 <div class="project-item game arvr">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/VRProject7.png">
+                            <video loop muted playsinline preload="none" data-lazy="true"
+                                poster="images/VRProject7.png">
                                 <source src="videos/VRProject7.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -2696,10 +2589,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">Experience the world without the jet lag. Travel Expo VR is an
-                            immersive virtual reality experience that transports you to the Earth's most breathtaking
-                            landmarks in stunning 360-degree detail. From the rugged peaks of the Andes to the bustling
-                            streets of Map, this project showcases the future of digital tourism.</p>
+                        <p class="project-description">Built a VR travel experience for Meta Quest that transports users to breathtaking global landmarks in stunning 360-degree detail. I developed the spatial navigation system, 360-video rendering pipeline, and immersive transitions between locations — a showcase of digital tourism in VR.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -2715,7 +2605,7 @@
                 <div class="project-item game casual simulation ">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project41.jpg">
+                            <video loop muted playsinline preload="none" data-lazy="true" poster="images/Project41.jpg">
                                 <source src="videos/Project41.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -2745,11 +2635,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">Build, grow, and command your own underground empire in Ant
-                            Colony! Gather resources, expand your tunnels, and manage
-                            your swarm of workers, soldiers, and foragers. Defend your queen, outsmart predators, and
-                            rise as the most powerful
-                            colony in the wild.</p>
+                        <p class="project-description">Developed a colony-building simulation where players manage resources, expand underground tunnel networks, and command armies of worker and soldier ants. I built the AI behavior system for swarm management, resource economy, and real-time colony defense mechanics.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -2763,7 +2649,8 @@
                 <div class="project-item game casual simulation ">
                     <div class="project-media">
                         <div class="project-video">
-                            <video autoplay loop muted playsinline preload="auto" poster="images/Project42.png`">
+                            <video loop muted playsinline preload="none" data-lazy="true"
+                                poster="images/Project42.png`">
                                 <source src="videos/Project42.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
@@ -2793,11 +2680,7 @@
                                 <span class="status-completed">Completed</span>
                             </div>
                         </div>
-                        <p class="project-description">Ant Battle is a strategic resource-gathering and combat game
-                            where players harvest fruit, feed their queen ant, and grow
-                            their colony. As the queen lays eggs, new warrior ants are born to defend against rival
-                            colonies in real-time battles.
-                            Balance harvesting, growth, and tactical combat to dominate the battlefield.</p>
+                        <p class="project-description">Built a strategic ant combat game where players harvest resources, grow their colony, and battle rival colonies in real-time. I designed the queen-based unit production system, resource gathering AI, and tactical combat mechanics — balancing economy management with intense battlefield action.</p>
                         <div class="project-technologies">
                             <span class="tech-tag">Unity</span>
                             <span class="tech-tag">C#</span>
@@ -2815,25 +2698,39 @@
     <footer>
         <div class="container">
             <div class="footer-content">
-                <div class="footer-logo">
-                    <h2>Riken <span>Sonani</span></h2>
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <h2>Riken <span>Sonani</span></h2>
+                    </div>
+                    <p>Senior Unity Game Developer & AR/VR Expert with 150+ projects and 10,000+ hours of professional
+                        experience.</p>
+                    <div class="footer-social">
+                        <a href="https://github.com/rikenfree" target="_blank" rel="noopener"
+                            aria-label="GitHub Profile">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="footer-links">
-                    <a href="index.html#home">Home</a>
-                    <a href="index.html#skills">Skills</a>
-                    <a href="index.html#projects">Projects</a>
-                    <a href="index.html#services">Services</a>
-                    <a href="index.html#testimonials">Testimonials</a>
+
+                <div class="footer-links-section">
+                    <h4>Quick Links</h4>
+                    <div class="footer-links-list">
+                        <a href="index.html#home">Home</a>
+                        <a href="index.html#skills">Skills</a>
+                        <a href="index.html#projects">Projects</a>
+                        <a href="index.html#services">Services</a>
+                        <a href="index.html#testimonials">Reviews</a>
+                    </div>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Riken Sonani. All Rights Reserved.</p>
+                <p>&copy; 2026 Riken Sonani. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Back to Top Button -->
-    <a href="#" class="back-to-top">
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top">
         <i class="fas fa-arrow-up"></i>
     </a>
 
